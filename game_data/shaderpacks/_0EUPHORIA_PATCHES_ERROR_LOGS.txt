@@ -1,0 +1,51 @@
+2026-11-17 10:48:13 [ERROR] EuphoriaPatcher: === SHADER NOT FOUND ===
+2026-11-17 10:48:13 [ERROR] EuphoriaPatcher: Required: ComplementaryShaders r5.8.1
+2026-11-17 10:48:13 [ERROR] EuphoriaPatcher: 
+2026-11-17 10:48:13 [ERROR] EuphoriaPatcher: No Complementary shader found in your shaderpacks folder.
+2026-11-17 10:48:13 [ERROR] EuphoriaPatcher: 
+2026-11-17 10:48:13 [ERROR] EuphoriaPatcher: SOLUTION: Download ComplementaryShaders r5.8.1
+2026-11-17 10:48:13 [ERROR] EuphoriaPatcher: Download from: https://www.complementary.dev/
+
+--------------------------------------
+Restart happened
+--------------------------------------
+2026-11-17 11:00:59 [ERROR] EuphoriaPatcher: === SHADER NOT FOUND ===
+2026-11-17 11:00:59 [ERROR] EuphoriaPatcher: Required: ComplementaryShaders r5.8.1
+2026-11-17 11:00:59 [ERROR] EuphoriaPatcher: 
+2026-11-17 11:00:59 [ERROR] EuphoriaPatcher: No Complementary shader found in your shaderpacks folder.
+2026-11-17 11:00:59 [ERROR] EuphoriaPatcher: 
+2026-11-17 11:00:59 [ERROR] EuphoriaPatcher: SOLUTION: Download ComplementaryShaders r5.8.1
+2026-11-17 11:00:59 [ERROR] EuphoriaPatcher: Download from: https://www.complementary.dev/
+
+--------------------------------------
+Restart happened
+--------------------------------------
+2026-11-17 11:08:23 [ERROR] EuphoriaPatcher: === SHADER NOT FOUND ===
+2026-11-17 11:08:23 [ERROR] EuphoriaPatcher: Required: ComplementaryShaders r5.8.1
+2026-11-17 11:08:23 [ERROR] EuphoriaPatcher: 
+2026-11-17 11:08:23 [ERROR] EuphoriaPatcher: No Complementary shader found in your shaderpacks folder.
+2026-11-17 11:08:23 [ERROR] EuphoriaPatcher: 
+2026-11-17 11:08:23 [ERROR] EuphoriaPatcher: SOLUTION: Download ComplementaryShaders r5.8.1
+2026-11-17 11:08:23 [ERROR] EuphoriaPatcher: Download from: https://www.complementary.dev/
+
+--------------------------------------
+Restart happened
+--------------------------------------
+2026-11-17 11:25:52 [ERROR] EuphoriaPatcher: === SHADER NOT FOUND ===
+2026-11-17 11:25:52 [ERROR] EuphoriaPatcher: Required: ComplementaryShaders r5.8.1
+2026-11-17 11:25:52 [ERROR] EuphoriaPatcher: 
+2026-11-17 11:25:52 [ERROR] EuphoriaPatcher: No Complementary shader found in your shaderpacks folder.
+2026-11-17 11:25:52 [ERROR] EuphoriaPatcher: 
+2026-11-17 11:25:52 [ERROR] EuphoriaPatcher: SOLUTION: Download ComplementaryShaders r5.8.1
+2026-11-17 11:25:52 [ERROR] EuphoriaPatcher: Download from: https://www.complementary.dev/
+
+--------------------------------------
+Restart happened
+--------------------------------------
+2026-11-17 12:00:49 [ERROR] EuphoriaPatcher: === SHADER NOT FOUND ===
+2026-11-17 12:00:49 [ERROR] EuphoriaPatcher: Required: ComplementaryShaders r5.8.1
+2026-11-17 12:00:49 [ERROR] EuphoriaPatcher: 
+2026-11-17 12:00:49 [ERROR] EuphoriaPatcher: No Complementary shader found in your shaderpacks folder.
+2026-11-17 12:00:49 [ERROR] EuphoriaPatcher: 
+2026-11-17 12:00:49 [ERROR] EuphoriaPatcher: SOLUTION: Download ComplementaryShaders r5.8.1
+2026-11-17 12:00:49 [ERROR] EuphoriaPatcher: Download from: https://www.complementary.dev/

@@ -1,0 +1,109 @@
+{
+  "activateSkinCapeForUserVersion": false,
+  "skipHashsumValidation": false,
+  "tlauncherVersion": 0,
+  "modpack": {
+    "modpackMemory": false,
+    "memory": 0,
+    "id": -52370115205500,
+    "name": "Coco Cobblemon 1.21.1",
+    "favorite": false,
+    "version": {
+      "mods": [
+        {
+          "stateGameElement": "active",
+          "id": 306612,
+          "name": "Fabric API",
+          "author": "",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/fabric-api",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 7,
+              "name": "library_api",
+              "shortName": "api",
+              "nesting": 0
+            }
+          ],
+          "picture": 778706,
+          "pictures": [],
+          "lanName": "fabric-api",
+          "version": {
+            "id": 8525495,
+            "name": "fabric-api-0.116.15+1.21.1",
+            "updateDate": 1785228070000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 53,
+                "name": "1.21.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "d25c793833a90cc028c9a61bc4546cd578a70ce1",
+              "size": 2452718,
+              "path": "mods/fabric-api-0.116.15%2B1.21.1.jar",
+              "url": "/mods/306612/8525495/fabric-api-0.116.15%252B1.21.1.jar"
+            },
+            "installed": 133505,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 2,
+                "name": "fabric"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 1786,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 70,
+            "name": "26.2"
+          },
+          "updated": 1787000400000,
+          "update": 1787000400000,
+          "downloadALL": 26662690,
+          "available": true,
+          "parser": true,
+          "notExists": false,
+          "totalComments": 0,
+          "adult": false
+        }
+      ],
+      "resourcePacks": [],
+      "maps": [],
+      "shaderpacks": [],
+      "gameVersionDTO": {
+        "id": 53,
+        "name": "1.21.1"
+      },
+      "minecraftVersionName": {
+        "id": 10504,
+        "name": "0.18.4"
+      },
+      "id": -52370115220101,
+      "name": "1.0",
+      "available": false,
+      "remove": false,
+      "minecraftVersionTypes": [
+        {
+          "id": 2,
+          "name": "fabric"
+        }
+      ]
+    },
+    "userInstall": false,
+    "populateStatus": false,
+    "available": false,
+    "parser": false,
+    "notExists": false,
+    "totalComments": 0
+  },
+  "source": "local_version_repo",
+  "jar": "1.21.1",
+  "skinVersion": false
+}

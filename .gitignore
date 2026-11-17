@@ -1,0 +1,3 @@
+game_data/logs/*
+game_data/crash-reports/*
+*.png

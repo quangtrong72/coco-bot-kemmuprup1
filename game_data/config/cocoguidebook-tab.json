@@ -1,0 +1,8 @@
+{
+  "mode": "marquee",
+  "minColumns": 4,
+  "speed": 22.0,
+  "moveMs": 3500,
+  "pauseMs": 1800,
+  "ellipsis": "…"
+}

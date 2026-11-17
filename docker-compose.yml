@@ -1,0 +1,10 @@
+services:
+  mc-bot:
+    build: .
+    container_name: coco-mc-bot
+    restart: unless-stopped
+    environment:
+      - MC_USER=Kemmuprup1
+      - MC_PASS=722006
+      - MC_SERVER=coco.ultramc.co
+      - MC_RAM=4500M

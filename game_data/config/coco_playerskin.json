@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "workerBase": "https://skin.cocoskin.workers.dev",
+  "servers": [
+    "185.207.166.112",
+    "coco.ultramc.co"
+  ],
+  "timeoutSeconds": 5
+}

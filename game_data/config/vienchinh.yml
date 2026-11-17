@@ -1,0 +1,2916 @@
+titleTemplate: <gradient:#8BC34A:#4CAF50>Ải Viễn Chinh</gradient> &#B0BEC5— {player}
+tabMissionsLabel: '&#EEEEEE🎒 Nhiệm vụ'
+tabExpeditionLabel: '&#EEEEEE✂ Thám hiểm'
+rerollButtonTemplate: '&#EEEEEE⟳ Đổi &#546E7A({remaining}/{max})'
+confirmButtonText: Xác nhận vào Ải
+noSelectionText: '&#78909CChọn 1 ải phía trên để xem chi tiết.'
+msgReloaded: '&#69F0AE✔ Đã tải lại config Ải Viễn Chinh.'
+msgNoTokens: '&#FF5252✘ Bạn đã hết lượt đổi hôm nay!'
+msgSelectFirst: '&#FF5252✘ Hãy chọn 1 ải trước khi xác nhận!'
+activeStatusTemplate: '&#FFD700⏳ Đang làm: &#FFFFFF{mission} &#B0BEC5— còn lại &#69F0AE{remaining}'
+activeStatusPausedTemplate: '&#FF9800⏸ Đang làm: &#FFFFFF{mission} &#B0BEC5— tạm dừng
+  (offline), còn lại &#69F0AE{remaining}'
+cancelButtonText: Hủy (mất 1 lượt)
+msgCancelled: '&#FF5252✘ Đã hủy ải đang làm — bạn mất 1 lượt.'
+msgAlreadyActive: '&#FF5252✘ Bạn đang làm 1 ải khác rồi! Dùng /vienchinh cancel nếu
+  muốn hủy.'
+msgNoActiveToCancel: '&#78909CBạn không có ải nào đang làm để hủy.'
+msgNoLives: '&#FF5252✘ Bạn đã hết lượt tham gia hôm nay!'
+msgLockedDay: '&#FF5252✘ Bạn đã hoàn thành 1 ải hôm nay — không thể tham gia thêm
+  (chế độ khóa: cả ngày).'
+msgLockedMission: '&#FF5252✘ Ải này đã hoàn thành hôm nay rồi, hãy chọn ải khác.'
+msgLockedTier: '&#FF5252✘ Bạn đã hoàn thành 1 ải độ khó này hôm nay rồi — hãy thử
+  độ khó khác.'
+msgExpeditionCompleted: '&#69F0AE✔ Bạn đã hoàn thành ải &#FFFFFF{mission}&#69F0AE!
+  Vào GUI để xem thưởng.'
+partySelectTitleTemplate: '&#FFFFFF{mission}'
+backButtonText: ◀ Quay lại
+finalizeButtonText: Bắt đầu thám hiểm ải
+requirementMetPrefix: '&#69F0AE✔ '
+requirementUnmetPrefix: '&#FF5252✘ '
+teamSizeLabelTemplate: '&#78909CĐã chọn: &#FFF176{current}&#78909C/{max}'
+msgTeamInvalid: '&#FF5252✘ Đội hình không còn hợp lệ, vui lòng thử lại.'
+confirmStartQuestionText: Bạn có chắc muốn bắt đầu thám hiểm ải này?
+confirmStartYesText: Có
+confirmStartNoText: Không
+leaderboardTitleTemplate: <gradient:#FFD700:#FFA000>Bảng Xếp Hạng</gradient> &#B0BEC5—
+  {player}
+leaderboardCloseButtonText: Đóng
+historyTitleTemplate: <gradient:#8D6E63:#D7CCC8>Lịch Sử</gradient> &#B0BEC5— {player}
+historyCloseButtonText: Đóng
+claimTitleTemplate: <gradient:#FFD54F:#FFA000>Nhận Thưởng</gradient> &#B0BEC5— {player}
+claimCloseButtonText: Đóng
+claimRowButtonText: Nhận
+claimEmptyText: Chưa có phần thưởng nào để nhận.
+claimDefaultCommandName: Phần thưởng đặc biệt
+tooltipLeaderboardIcon: Bảng Xếp Hạng — top người chơi hoàn thành nhiều ải nhất
+tooltipHistoryIcon: Lịch Sử — thống kê + lịch sử đi ải/nhận thưởng của bạn
+tooltipCloseMenu: Đóng menu
+tooltipReroll: Đổi lại danh sách ải hôm nay (tốn 1 lượt Đổi)
+tooltipConfirmEnter: Xác nhận vào ải đã chọn — mở màn hình chọn Pokémon
+tooltipCancelActive: Hủy ải đang làm — mất 1 lượt tham gia, KHÔNG thể hoàn tác
+tooltipPartyExit: Hủy lựa chọn ải đang dở, quay về menu chính
+tooltipPartyFinalize: Chốt đội hình đã chọn — mở popup xác nhận bắt đầu
+tooltipPartyRosterRow: Bấm để chọn/bỏ chọn Pokémon này cho đội hình
+tooltipStartConfirmYes: Xác nhận bắt đầu — KHÔNG thể hoàn tác
+tooltipStartConfirmNo: Hủy, quay lại màn chọn đội hình
+tooltipLeaderboardClose: Đóng, quay lại menu chính
+tooltipHistoryClose: Đóng, quay lại menu chính
+tooltipHistoryPrevPage: Trang trước
+tooltipHistoryNextPage: Trang sau
+tooltipHistoryFilterChip: Bấm để chỉ hiện ải {tier} sao
+tooltipHistoryFilterChipActive: Bấm để bỏ lọc
+tooltipClaimIcon: Nhận Thưởng — phần thưởng chưa nhận được do hết chỗ trong túi đồ
+tooltipClaimRowButton: Bấm để nhận phần thưởng này
+tooltipClaimClose: Đóng, quay lại menu chính
+missionsPerDay: 3
+rerollsPerDay: 5
+livesPerDay: 3
+completionLockMode: TIER
+hourglassReduceSeconds: 1800
+missions:
+  - id: 1star_aerodactyl
+    name: Ải Hóa Thạch Cánh Đá
+    description: Khám phá ải hóa thạch cánh đá và đối đầu với Aerodactyl.
+    difficulty: 1
+    art: 1_star_aerodactyl
+    durationText: 15 phút
+    durationSeconds: 900
+    rewardText: '&#FFEB3B 50% 1000 CobbleDollars, &#FFEB3B 50% Rare Candy x1'
+    rewards:
+      - command=cobbledollars give {player} 1000,chance=50,display=1000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1,chance=50
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 6
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 1star_alolan_marowak
+    name: Ải Ngọn Lửa Ma Trơi
+    description: Khám phá ải ngọn lửa ma trơi và đối đầu với Marowak vùng Alola.
+    difficulty: 1
+    art: 1_star_alolan_marowak
+    durationText: 15 phút
+    durationSeconds: 900
+    rewardText: '&#FFEB3B 50% 1000 CobbleDollars, &#FFEB3B 50% Rare Candy x1'
+    rewards:
+      - command=cobbledollars give {player} 1000,chance=50,display=1000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1,chance=50
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 6
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 1star_alolan_vulpix
+    name: Ải Băng Giá Sơ Khai
+    description: Khám phá ải băng giá sơ khai và đối đầu với Vulpix vùng Alola.
+    difficulty: 1
+    art: 1_star_alolan_vulpix
+    durationText: 15 phút
+    durationSeconds: 900
+    rewardText: '&#FFEB3B 50% 1000 CobbleDollars, &#FFEB3B 50% Rare Candy x1'
+    rewards:
+      - command=cobbledollars give {player} 1000,chance=50,display=1000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1,chance=50
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 6
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 1star_bidoof
+    name: Ải Đập Nước Gặm Gỗ
+    description: Khám phá ải đập nước gặm gỗ và đối đầu với Bidoof.
+    difficulty: 1
+    art: 1_star_bidoof
+    durationText: 15 phút
+    durationSeconds: 900
+    rewardText: '&#FFEB3B 50% 1000 CobbleDollars, &#FFEB3B 50% Rare Candy x1'
+    rewards:
+      - command=cobbledollars give {player} 1000,chance=50,display=1000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1,chance=50
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 6
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 1star_bulbasaur
+    name: Ải Mầm Xanh Khởi Nguyên
+    description: Khám phá ải mầm xanh khởi nguyên và đối đầu với Bulbasaur.
+    difficulty: 1
+    art: 1_star_bulbasaur
+    durationText: 15 phút
+    durationSeconds: 900
+    rewardText: '&#FFEB3B 50% 1000 CobbleDollars, &#FFEB3B 50% Rare Candy x1'
+    rewards:
+      - command=cobbledollars give {player} 1000,chance=50,display=1000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1,chance=50
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 6
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 1star_charmander
+    name: Ải Đốm Lửa Đuôi Nhỏ
+    description: Khám phá ải đốm lửa đuôi nhỏ và đối đầu với Charmander.
+    difficulty: 1
+    art: 1_star_charmander
+    durationText: 15 phút
+    durationSeconds: 900
+    rewardText: '&#FFEB3B 50% 1000 CobbleDollars, &#FFEB3B 50% Rare Candy x1'
+    rewards:
+      - command=cobbledollars give {player} 1000,chance=50,display=1000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1,chance=50
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 6
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 1star_clamperl
+    name: Ải Vỏ Sò Đáy Biển
+    description: Khám phá ải vỏ sò đáy biển và đối đầu với Clamperl.
+    difficulty: 1
+    art: 1_star_clamperl
+    durationText: 15 phút
+    durationSeconds: 900
+    rewardText: '&#FFEB3B 50% 1000 CobbleDollars, &#FFEB3B 50% Rare Candy x1'
+    rewards:
+      - command=cobbledollars give {player} 1000,chance=50,display=1000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1,chance=50
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 6
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 1star_croagunk
+    name: Ải Đầm Lầy Độc Ểnh Ương
+    description: Khám phá ải đầm lầy độc ểnh ương và đối đầu với Croagunk.
+    difficulty: 1
+    art: 1_star_croagunk
+    durationText: 15 phút
+    durationSeconds: 900
+    rewardText: '&#FFEB3B 50% 1000 CobbleDollars, &#FFEB3B 50% Rare Candy x1'
+    rewards:
+      - command=cobbledollars give {player} 1000,chance=50,display=1000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1,chance=50
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 6
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 1star_cubone
+    name: Ải Hộp Sọ Cô Đơn
+    description: Khám phá ải hộp sọ cô đơn và đối đầu với Cubone.
+    difficulty: 1
+    art: 1_star_cubone
+    durationText: 15 phút
+    durationSeconds: 900
+    rewardText: '&#FFEB3B 50% 1000 CobbleDollars, &#FFEB3B 50% Rare Candy x1'
+    rewards:
+      - command=cobbledollars give {player} 1000,chance=50,display=1000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1,chance=50
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 6
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 1star_cutiefly
+    name: Ải Phấn Hoa Lấp Lánh
+    description: Khám phá ải phấn hoa lấp lánh và đối đầu với Cutiefly.
+    difficulty: 1
+    art: 1_star_cutiefly
+    durationText: 15 phút
+    durationSeconds: 900
+    rewardText: '&#FFEB3B 50% 1000 CobbleDollars, &#FFEB3B 50% Rare Candy x1'
+    rewards:
+      - command=cobbledollars give {player} 1000,chance=50,display=1000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1,chance=50
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 6
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 1star_electrode
+    name: Ải Quả Cầu Điện Giật
+    description: Khám phá ải quả cầu điện giật và đối đầu với Electrode.
+    difficulty: 1
+    art: 1_star_electrode
+    durationText: 15 phút
+    durationSeconds: 900
+    rewardText: '&#FFEB3B 50% 1000 CobbleDollars, &#FFEB3B 50% Rare Candy x1'
+    rewards:
+      - command=cobbledollars give {player} 1000,chance=50,display=1000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1,chance=50
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 6
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 1star_gloom
+    name: Ải Đầm Lầy Hương Nồng
+    description: Khám phá ải đầm lầy hương nồng và đối đầu với Gloom.
+    difficulty: 1
+    art: 1_star_gloom
+    durationText: 15 phút
+    durationSeconds: 900
+    rewardText: '&#FFEB3B 50% 1000 CobbleDollars, &#FFEB3B 50% Rare Candy x1'
+    rewards:
+      - command=cobbledollars give {player} 1000,chance=50,display=1000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1,chance=50
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 6
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 1star_hoothoot
+    name: Ải Đêm Cú Canh Giờ
+    description: Khám phá ải đêm cú canh giờ và đối đầu với Hoothoot.
+    difficulty: 1
+    art: 1_star_hoothoot
+    durationText: 15 phút
+    durationSeconds: 900
+    rewardText: '&#FFEB3B 50% 1000 CobbleDollars, &#FFEB3B 50% Rare Candy x1'
+    rewards:
+      - command=cobbledollars give {player} 1000,chance=50,display=1000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1,chance=50
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 6
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 1star_ironboulder
+    name: Ải Tảng Đá Cơ Khí
+    description: Khám phá ải tảng đá cơ khí và đối đầu với Iron Boulder.
+    difficulty: 1
+    art: 1_star_ironboulder
+    durationText: 15 phút
+    durationSeconds: 900
+    rewardText: '&#FFEB3B 50% 1000 CobbleDollars, &#FFEB3B 50% Rare Candy x1'
+    rewards:
+      - command=cobbledollars give {player} 1000,chance=50,display=1000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1,chance=50
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 6
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 1star_komala
+    name: Ải Cành Cây Ngủ Say
+    description: Khám phá ải cành cây ngủ say và đối đầu với Komala.
+    difficulty: 1
+    art: 1_star_komala
+    durationText: 15 phút
+    durationSeconds: 900
+    rewardText: '&#FFEB3B 50% 1000 CobbleDollars, &#FFEB3B 50% Rare Candy x1'
+    rewards:
+      - command=cobbledollars give {player} 1000,chance=50,display=1000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1,chance=50
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 6
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 1star_minior
+    name: Ải Thiên Thạch Rơi Đêm
+    description: Khám phá ải thiên thạch rơi đêm và đối đầu với Minior.
+    difficulty: 1
+    art: 1_star_minior
+    durationText: 15 phút
+    durationSeconds: 900
+    rewardText: '&#FFEB3B 50% 1000 CobbleDollars, &#FFEB3B 50% Rare Candy x1'
+    rewards:
+      - command=cobbledollars give {player} 1000,chance=50,display=1000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1,chance=50
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 6
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 1star_salandit
+    name: Ải Hang Khói Độc Nham Thạch
+    description: Khám phá ải hang khói độc nham thạch và đối đầu với Salandit.
+    difficulty: 1
+    art: 1_star_salandit
+    durationText: 15 phút
+    durationSeconds: 900
+    rewardText: '&#FFEB3B 50% 1000 CobbleDollars, &#FFEB3B 50% Rare Candy x1'
+    rewards:
+      - command=cobbledollars give {player} 1000,chance=50,display=1000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1,chance=50
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 6
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 1star_sandygast
+    name: Ải Lâu Đài Cát Ma Ám
+    description: Khám phá ải lâu đài cát ma ám và đối đầu với Sandygast.
+    difficulty: 1
+    art: 1_star_sandygast
+    durationText: 15 phút
+    durationSeconds: 900
+    rewardText: '&#FFEB3B 50% 1000 CobbleDollars, &#FFEB3B 50% Rare Candy x1'
+    rewards:
+      - command=cobbledollars give {player} 1000,chance=50,display=1000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1,chance=50
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 6
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 1star_sentret
+    name: Ải Đồng Cỏ Cảnh Giác
+    description: Khám phá ải đồng cỏ cảnh giác và đối đầu với Sentret.
+    difficulty: 1
+    art: 1_star_sentret
+    durationText: 15 phút
+    durationSeconds: 900
+    rewardText: '&#FFEB3B 50% 1000 CobbleDollars, &#FFEB3B 50% Rare Candy x1'
+    rewards:
+      - command=cobbledollars give {player} 1000,chance=50,display=1000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1,chance=50
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 6
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 1star_squirtle
+    name: Ải Vòi Nước Mai Nhỏ
+    description: Khám phá ải vòi nước mai nhỏ và đối đầu với Squirtle.
+    difficulty: 1
+    art: 1_star_squirtle
+    durationText: 15 phút
+    durationSeconds: 900
+    rewardText: '&#FFEB3B 50% 1000 CobbleDollars, &#FFEB3B 50% Rare Candy x1'
+    rewards:
+      - command=cobbledollars give {player} 1000,chance=50,display=1000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1,chance=50
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 6
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 1star_unown
+    name: Ải Chữ Cổ Bí Ẩn
+    description: Khám phá ải chữ cổ bí ẩn và đối đầu với Unown.
+    difficulty: 1
+    art: 1_star_unown
+    durationText: 15 phút
+    durationSeconds: 900
+    rewardText: '&#FFEB3B 50% 1000 CobbleDollars, &#FFEB3B 50% Rare Candy x1'
+    rewards:
+      - command=cobbledollars give {player} 1000,chance=50,display=1000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1,chance=50
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 6
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 2star_bidoof_2
+    name: Ải Xưởng Gỗ Siêng Năng
+    description: Khám phá ải xưởng gỗ siêng năng và đối đầu với Bidoof.
+    difficulty: 2
+    art: 2_star_bidoof_2
+    durationText: 30 phút
+    durationSeconds: 1800
+    rewardText: '&#4CAF50 60% 2500 CobbleDollars, &#FFEB3B 40% Rare Candy x1-2'
+    rewards:
+      - command=cobbledollars give {player} 2500,chance=60,display=2500 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1-2,chance=40
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 5
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 2
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 2star_combee
+    name: Ải Tổ Ong Lục Giác
+    description: Khám phá ải tổ ong lục giác và đối đầu với Combee.
+    difficulty: 2
+    art: 2_star_combee
+    durationText: 30 phút
+    durationSeconds: 1800
+    rewardText: '&#4CAF50 60% 2500 CobbleDollars, &#FFEB3B 40% Rare Candy x1-2'
+    rewards:
+      - command=cobbledollars give {player} 2500,chance=60,display=2500 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1-2,chance=40
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 5
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 2
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 2star_dedenne
+    name: Ải Ăng-Ten Tí Hon
+    description: Khám phá ải ăng-ten tí hon và đối đầu với Dedenne.
+    difficulty: 2
+    art: 2_star_dedenne
+    durationText: 30 phút
+    durationSeconds: 1800
+    rewardText: '&#4CAF50 60% 2500 CobbleDollars, &#FFEB3B 40% Rare Candy x1-2'
+    rewards:
+      - command=cobbledollars give {player} 2500,chance=60,display=2500 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1-2,chance=40
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 5
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 2
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 2star_delibird
+    name: Ải Băng Tuyết Giao Quà
+    description: Khám phá ải băng tuyết giao quà và đối đầu với Delibird.
+    difficulty: 2
+    art: 2_star_delibird
+    durationText: 30 phút
+    durationSeconds: 1800
+    rewardText: '&#4CAF50 60% 2500 CobbleDollars, &#FFEB3B 40% Rare Candy x1-2'
+    rewards:
+      - command=cobbledollars give {player} 2500,chance=60,display=2500 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1-2,chance=40
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 5
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 2
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 2star_dratini
+    name: Ải Suối Rồng Sơ Sinh
+    description: Khám phá ải suối rồng sơ sinh và đối đầu với Dratini.
+    difficulty: 2
+    art: 2_star_dratini
+    durationText: 30 phút
+    durationSeconds: 1800
+    rewardText: '&#4CAF50 60% 2500 CobbleDollars, &#FFEB3B 40% Rare Candy x1-2'
+    rewards:
+      - command=cobbledollars give {player} 2500,chance=60,display=2500 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1-2,chance=40
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 5
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 2
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 2star_drifloon
+    name: Ải Bóng Bay Lang Thang
+    description: Khám phá ải bóng bay lang thang và đối đầu với Drifloon.
+    difficulty: 2
+    art: 2_star_drifloon
+    durationText: 30 phút
+    durationSeconds: 1800
+    rewardText: '&#4CAF50 60% 2500 CobbleDollars, &#FFEB3B 40% Rare Candy x1-2'
+    rewards:
+      - command=cobbledollars give {player} 2500,chance=60,display=2500 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1-2,chance=40
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 5
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 2
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 2star_eevee
+    name: Ải Vạn Biến Tiến Hóa
+    description: Khám phá ải vạn biến tiến hóa và đối đầu với Eevee.
+    difficulty: 2
+    art: 2_star_eevee
+    durationText: 30 phút
+    durationSeconds: 1800
+    rewardText: '&#4CAF50 60% 2500 CobbleDollars, &#FFEB3B 40% Rare Candy x1-2'
+    rewards:
+      - command=cobbledollars give {player} 2500,chance=60,display=2500 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1-2,chance=40
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 5
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 2
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 2star_espeon
+    name: Ải Ánh Nắng Thần Giao
+    description: Khám phá ải ánh nắng thần giao và đối đầu với Espeon.
+    difficulty: 2
+    art: 2_star_espeon
+    durationText: 30 phút
+    durationSeconds: 1800
+    rewardText: '&#4CAF50 60% 2500 CobbleDollars, &#FFEB3B 40% Rare Candy x1-2'
+    rewards:
+      - command=cobbledollars give {player} 2500,chance=60,display=2500 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1-2,chance=40
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 5
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 2
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 2star_flareon
+    name: Ải Lửa Trại Bập Bùng
+    description: Khám phá ải lửa trại bập bùng và đối đầu với Flareon.
+    difficulty: 2
+    art: 2_star_flareon
+    durationText: 30 phút
+    durationSeconds: 1800
+    rewardText: '&#4CAF50 60% 2500 CobbleDollars, &#FFEB3B 40% Rare Candy x1-2'
+    rewards:
+      - command=cobbledollars give {player} 2500,chance=60,display=2500 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1-2,chance=40
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 5
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 2
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 2star_gastrodon
+    name: Ải Bờ Biển Nhớt Sên
+    description: Khám phá ải bờ biển nhớt sên và đối đầu với Gastrodon.
+    difficulty: 2
+    art: 2_star_gastrodon
+    durationText: 30 phút
+    durationSeconds: 1800
+    rewardText: '&#4CAF50 60% 2500 CobbleDollars, &#FFEB3B 40% Rare Candy x1-2'
+    rewards:
+      - command=cobbledollars give {player} 2500,chance=60,display=2500 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1-2,chance=40
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 5
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 2
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 2star_glaceon
+    name: Ải Băng Tuyết Pha Lê
+    description: Khám phá ải băng tuyết pha lê và đối đầu với Glaceon.
+    difficulty: 2
+    art: 2_star_glaceon
+    durationText: 30 phút
+    durationSeconds: 1800
+    rewardText: '&#4CAF50 60% 2500 CobbleDollars, &#FFEB3B 40% Rare Candy x1-2'
+    rewards:
+      - command=cobbledollars give {player} 2500,chance=60,display=2500 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1-2,chance=40
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 5
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 2
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 2star_glameow
+    name: Ải Mèo Yêu Kiều Đỏng Đảnh
+    description: Khám phá ải mèo yêu kiều đỏng đảnh và đối đầu với Glameow.
+    difficulty: 2
+    art: 2_star_glameow
+    durationText: 30 phút
+    durationSeconds: 1800
+    rewardText: '&#4CAF50 60% 2500 CobbleDollars, &#FFEB3B 40% Rare Candy x1-2'
+    rewards:
+      - command=cobbledollars give {player} 2500,chance=60,display=2500 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1-2,chance=40
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 5
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 2
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 2star_jolteon
+    name: Ải Tia Sét Lông Nhọn
+    description: Khám phá ải tia sét lông nhọn và đối đầu với Jolteon.
+    difficulty: 2
+    art: 2_star_jolteon
+    durationText: 30 phút
+    durationSeconds: 1800
+    rewardText: '&#4CAF50 60% 2500 CobbleDollars, &#FFEB3B 40% Rare Candy x1-2'
+    rewards:
+      - command=cobbledollars give {player} 2500,chance=60,display=2500 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1-2,chance=40
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 5
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 2
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 2star_leafeon
+    name: Ải Rừng Lá Thường Xanh
+    description: Khám phá ải rừng lá thường xanh và đối đầu với Leafeon.
+    difficulty: 2
+    art: 2_star_leafeon
+    durationText: 30 phút
+    durationSeconds: 1800
+    rewardText: '&#4CAF50 60% 2500 CobbleDollars, &#FFEB3B 40% Rare Candy x1-2'
+    rewards:
+      - command=cobbledollars give {player} 2500,chance=60,display=2500 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1-2,chance=40
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 5
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 2
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 2star_maushold
+    name: Ải Gia Đình Chuột Đông Đúc
+    description: Khám phá ải gia đình chuột đông đúc và đối đầu với Maushold.
+    difficulty: 2
+    art: 2_star_maushold
+    durationText: 30 phút
+    durationSeconds: 1800
+    rewardText: '&#4CAF50 60% 2500 CobbleDollars, &#FFEB3B 40% Rare Candy x1-2'
+    rewards:
+      - command=cobbledollars give {player} 2500,chance=60,display=2500 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1-2,chance=40
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 5
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 2
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 2star_meowth
+    name: Ải Đồng Xu Vàng Mèo Hoang
+    description: Khám phá ải đồng xu vàng mèo hoang và đối đầu với Meowth.
+    difficulty: 2
+    art: 2_star_meowth
+    durationText: 30 phút
+    durationSeconds: 1800
+    rewardText: '&#4CAF50 60% 2500 CobbleDollars, &#FFEB3B 40% Rare Candy x1-2'
+    rewards:
+      - command=cobbledollars give {player} 2500,chance=60,display=2500 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1-2,chance=40
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 5
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 2
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 2star_mimikyu
+    name: Ải Vải Vụn Cô Đơn
+    description: Khám phá ải vải vụn cô đơn và đối đầu với Mimikyu.
+    difficulty: 2
+    art: 2_star_mimikyu
+    durationText: 30 phút
+    durationSeconds: 1800
+    rewardText: '&#4CAF50 60% 2500 CobbleDollars, &#FFEB3B 40% Rare Candy x1-2'
+    rewards:
+      - command=cobbledollars give {player} 2500,chance=60,display=2500 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1-2,chance=40
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 5
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 2
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 2star_nidoking
+    name: Ải Vương Miện Nọc Độc
+    description: Khám phá ải vương miện nọc độc và đối đầu với Nidoking.
+    difficulty: 2
+    art: 2_star_nidoking
+    durationText: 30 phút
+    durationSeconds: 1800
+    rewardText: '&#4CAF50 60% 2500 CobbleDollars, &#FFEB3B 40% Rare Candy x1-2'
+    rewards:
+      - command=cobbledollars give {player} 2500,chance=60,display=2500 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1-2,chance=40
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 5
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 2
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 2star_nidoqueen
+    name: Ải Giáp Gai Hoàng Hậu
+    description: Khám phá ải giáp gai hoàng hậu và đối đầu với Nidoqueen.
+    difficulty: 2
+    art: 2_star_nidoqueen
+    durationText: 30 phút
+    durationSeconds: 1800
+    rewardText: '&#4CAF50 60% 2500 CobbleDollars, &#FFEB3B 40% Rare Candy x1-2'
+    rewards:
+      - command=cobbledollars give {player} 2500,chance=60,display=2500 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1-2,chance=40
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 5
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 2
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 2star_parchirisu
+    name: Ải Sóc Điện Tích Trữ
+    description: Khám phá ải sóc điện tích trữ và đối đầu với Pachirisu.
+    difficulty: 2
+    art: 2_star_parchirisu
+    durationText: 30 phút
+    durationSeconds: 1800
+    rewardText: '&#4CAF50 60% 2500 CobbleDollars, &#FFEB3B 40% Rare Candy x1-2'
+    rewards:
+      - command=cobbledollars give {player} 2500,chance=60,display=2500 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1-2,chance=40
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 5
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 2
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 2star_pikachu
+    name: Ải Sấm Sét Đồng Cỏ
+    description: Khám phá ải sấm sét đồng cỏ và đối đầu với Pikachu.
+    difficulty: 2
+    art: 2_star_pikachu
+    durationText: 30 phút
+    durationSeconds: 1800
+    rewardText: '&#4CAF50 60% 2500 CobbleDollars, &#FFEB3B 40% Rare Candy x1-2'
+    rewards:
+      - command=cobbledollars give {player} 2500,chance=60,display=2500 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1-2,chance=40
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 5
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 2
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 2star_pikachu_
+    name: Ải Đuôi Sét Vườn Táo
+    description: Khám phá ải đuôi sét vườn táo và đối đầu với Pikachu.
+    difficulty: 2
+    art: 2_star_pikachu_
+    durationText: 30 phút
+    durationSeconds: 1800
+    rewardText: '&#4CAF50 60% 2500 CobbleDollars, &#FFEB3B 40% Rare Candy x1-2'
+    rewards:
+      - command=cobbledollars give {player} 2500,chance=60,display=2500 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1-2,chance=40
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 5
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 2
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 2star_pinsir
+    name: Ải Gọng Kìm Rừng Nhiệt Đới
+    description: Khám phá ải gọng kìm rừng nhiệt đới và đối đầu với Pinsir.
+    difficulty: 2
+    art: 2_star_pinsir
+    durationText: 30 phút
+    durationSeconds: 1800
+    rewardText: '&#4CAF50 60% 2500 CobbleDollars, &#FFEB3B 40% Rare Candy x1-2'
+    rewards:
+      - command=cobbledollars give {player} 2500,chance=60,display=2500 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1-2,chance=40
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 5
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 2
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 2star_primarina
+    name: Ải Bong Bóng Ca Sĩ Biển
+    description: Khám phá ải bong bóng ca sĩ biển và đối đầu với Primarina.
+    difficulty: 2
+    art: 2_star_primarina
+    durationText: 30 phút
+    durationSeconds: 1800
+    rewardText: '&#4CAF50 60% 2500 CobbleDollars, &#FFEB3B 40% Rare Candy x1-2'
+    rewards:
+      - command=cobbledollars give {player} 2500,chance=60,display=2500 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1-2,chance=40
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 5
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 2
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 2star_shinx
+    name: Ải Sư Tử Điện Con
+    description: Khám phá ải sư tử điện con và đối đầu với Shinx.
+    difficulty: 2
+    art: 2_star_shinx
+    durationText: 30 phút
+    durationSeconds: 1800
+    rewardText: '&#4CAF50 60% 2500 CobbleDollars, &#FFEB3B 40% Rare Candy x1-2'
+    rewards:
+      - command=cobbledollars give {player} 2500,chance=60,display=2500 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1-2,chance=40
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 5
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 2
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 2star_spiritomb
+    name: Ải 108 Linh Hồn Phong Ấn
+    description: Khám phá ải 108 linh hồn phong ấn và đối đầu với Spiritomb.
+    difficulty: 2
+    art: 2_star_spiritomb
+    durationText: 30 phút
+    durationSeconds: 1800
+    rewardText: '&#4CAF50 60% 2500 CobbleDollars, &#FFEB3B 40% Rare Candy x1-2'
+    rewards:
+      - command=cobbledollars give {player} 2500,chance=60,display=2500 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1-2,chance=40
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 5
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 2
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 2star_sylveon
+    name: Ải Nơ Hồng Khu Vườn
+    description: Khám phá ải nơ hồng khu vườn và đối đầu với Sylveon.
+    difficulty: 2
+    art: 2_star_sylveon
+    durationText: 30 phút
+    durationSeconds: 1800
+    rewardText: '&#4CAF50 60% 2500 CobbleDollars, &#FFEB3B 40% Rare Candy x1-2'
+    rewards:
+      - command=cobbledollars give {player} 2500,chance=60,display=2500 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1-2,chance=40
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 5
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 2
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 2star_umbreon
+    name: Ải Vành Trăng Bóng Tối
+    description: Khám phá ải vành trăng bóng tối và đối đầu với Umbreon.
+    difficulty: 2
+    art: 2_star_umbreon
+    durationText: 30 phút
+    durationSeconds: 1800
+    rewardText: '&#4CAF50 60% 2500 CobbleDollars, &#FFEB3B 40% Rare Candy x1-2'
+    rewards:
+      - command=cobbledollars give {player} 2500,chance=60,display=2500 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1-2,chance=40
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 5
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 2
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 2star_vaporeon
+    name: Ải Suối Nước Trong Vắt
+    description: Khám phá ải suối nước trong vắt và đối đầu với Vaporeon.
+    difficulty: 2
+    art: 2_star_vaporeon
+    durationText: 30 phút
+    durationSeconds: 1800
+    rewardText: '&#4CAF50 60% 2500 CobbleDollars, &#FFEB3B 40% Rare Candy x1-2'
+    rewards:
+      - command=cobbledollars give {player} 2500,chance=60,display=2500 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1-2,chance=40
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 5
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 2
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 2star_weezing
+    name: Ải Khí Độc Song Sinh
+    description: Khám phá ải khí độc song sinh và đối đầu với Weezing.
+    difficulty: 2
+    art: 2_star_weezing
+    durationText: 30 phút
+    durationSeconds: 1800
+    rewardText: '&#4CAF50 60% 2500 CobbleDollars, &#FFEB3B 40% Rare Candy x1-2'
+    rewards:
+      - command=cobbledollars give {player} 2500,chance=60,display=2500 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1-2,chance=40
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 5
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 2
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 2star_wiglytuff
+    name: Ải Bong Bóng Ru Ngủ
+    description: Khám phá ải bong bóng ru ngủ và đối đầu với Wigglytuff.
+    difficulty: 2
+    art: 2_star_wiglytuff
+    durationText: 30 phút
+    durationSeconds: 1800
+    rewardText: '&#4CAF50 60% 2500 CobbleDollars, &#FFEB3B 40% Rare Candy x1-2'
+    rewards:
+      - command=cobbledollars give {player} 2500,chance=60,display=2500 CobbleDollars
+      - item=cobblemon:rare_candy,amount=1-2,chance=40
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 1
+    maxTeamSize: 5
+    requirements:
+      - type: MIN_COUNT
+        stat: null
+        species: null
+        threshold: 2
+        labelTemplate: '&#B0BEC5Cần ít nhất {threshold} Pokémon'
+  - id: 3star_alolan_ninetales
+    name: Ải Cửu Vĩ Băng Giá
+    description: Khám phá ải cửu vĩ băng giá và đối đầu với Ninetales vùng Alola.
+    difficulty: 3
+    art: 3_star_alolan_ninetales
+    durationText: 1h0m
+    durationSeconds: 3600
+    rewardText: '&#4CAF50 65% 5000 CobbleDollars, &#FFEB3B 35% Rare Candy x2-3, &#FF9800
+      15% Ability Patch'
+    rewards:
+      - command=cobbledollars give {player} 5000,chance=65,display=5000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=2-3,chance=35
+      - item=cobblemon:ability_patch,amount=1,chance=15
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 2
+    maxTeamSize: 5
+    requirements:
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 60
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 3star_charizard
+    name: Ải Đỉnh Núi Rồng Lửa
+    description: Khám phá ải đỉnh núi rồng lửa và đối đầu với Charizard.
+    difficulty: 3
+    art: 3_star_charizard
+    durationText: 1h0m
+    durationSeconds: 3600
+    rewardText: '&#4CAF50 65% 5000 CobbleDollars, &#FFEB3B 35% Rare Candy x2-3, &#FF9800
+      15% Ability Patch'
+    rewards:
+      - command=cobbledollars give {player} 5000,chance=65,display=5000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=2-3,chance=35
+      - item=cobblemon:ability_patch,amount=1,chance=15
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 2
+    maxTeamSize: 5
+    requirements:
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 60
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 3star_ditto
+    name: Ải Chất Nhờn Biến Hình
+    description: Khám phá ải chất nhờn biến hình và đối đầu với Ditto.
+    difficulty: 3
+    art: 3_star_ditto
+    durationText: 1h0m
+    durationSeconds: 3600
+    rewardText: '&#4CAF50 65% 5000 CobbleDollars, &#FFEB3B 35% Rare Candy x2-3, &#FF9800
+      15% Ability Patch'
+    rewards:
+      - command=cobbledollars give {player} 5000,chance=65,display=5000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=2-3,chance=35
+      - item=cobblemon:ability_patch,amount=1,chance=15
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 2
+    maxTeamSize: 5
+    requirements:
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 60
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 3star_dragonite
+    name: Ải Chân Trời Rồng Bay
+    description: Khám phá ải chân trời rồng bay và đối đầu với Dragonite.
+    difficulty: 3
+    art: 3_star_dragonite
+    durationText: 1h0m
+    durationSeconds: 3600
+    rewardText: '&#4CAF50 65% 5000 CobbleDollars, &#FFEB3B 35% Rare Candy x2-3, &#FF9800
+      15% Ability Patch'
+    rewards:
+      - command=cobbledollars give {player} 5000,chance=65,display=5000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=2-3,chance=35
+      - item=cobblemon:ability_patch,amount=1,chance=15
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 2
+    maxTeamSize: 5
+    requirements:
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 60
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 3star_dragonite_2
+    name: Ải Hải Đăng Rồng Hiền
+    description: Khám phá ải hải đăng rồng hiền và đối đầu với Dragonite.
+    difficulty: 3
+    art: 3_star_dragonite_2
+    durationText: 1h0m
+    durationSeconds: 3600
+    rewardText: '&#4CAF50 65% 5000 CobbleDollars, &#FFEB3B 35% Rare Candy x2-3, &#FF9800
+      15% Ability Patch'
+    rewards:
+      - command=cobbledollars give {player} 5000,chance=65,display=5000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=2-3,chance=35
+      - item=cobblemon:ability_patch,amount=1,chance=15
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 2
+    maxTeamSize: 5
+    requirements:
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 60
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 3star_drampa
+    name: Ải Mây Trời Rồng Hiền Từ
+    description: Khám phá ải mây trời rồng hiền từ và đối đầu với Drampa.
+    difficulty: 3
+    art: 3_star_drampa
+    durationText: 1h0m
+    durationSeconds: 3600
+    rewardText: '&#4CAF50 65% 5000 CobbleDollars, &#FFEB3B 35% Rare Candy x2-3, &#FF9800
+      15% Ability Patch'
+    rewards:
+      - command=cobbledollars give {player} 5000,chance=65,display=5000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=2-3,chance=35
+      - item=cobblemon:ability_patch,amount=1,chance=15
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 2
+    maxTeamSize: 5
+    requirements:
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 60
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 3star_exeggutor
+    name: Ải Ba Đầu Dừa Cọ
+    description: Khám phá ải ba đầu dừa cọ và đối đầu với Exeggutor.
+    difficulty: 3
+    art: 3_star_exeggutor
+    durationText: 1h0m
+    durationSeconds: 3600
+    rewardText: '&#4CAF50 65% 5000 CobbleDollars, &#FFEB3B 35% Rare Candy x2-3, &#FF9800
+      15% Ability Patch'
+    rewards:
+      - command=cobbledollars give {player} 5000,chance=65,display=5000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=2-3,chance=35
+      - item=cobblemon:ability_patch,amount=1,chance=15
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 2
+    maxTeamSize: 5
+    requirements:
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 60
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 3star_garchomp
+    name: Ải Vực Sa Mạc Cá Mập
+    description: Khám phá ải vực sa mạc cá mập và đối đầu với Garchomp.
+    difficulty: 3
+    art: 3_star_garchomp
+    durationText: 1h0m
+    durationSeconds: 3600
+    rewardText: '&#4CAF50 65% 5000 CobbleDollars, &#FFEB3B 35% Rare Candy x2-3, &#FF9800
+      15% Ability Patch'
+    rewards:
+      - command=cobbledollars give {player} 5000,chance=65,display=5000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=2-3,chance=35
+      - item=cobblemon:ability_patch,amount=1,chance=15
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 2
+    maxTeamSize: 5
+    requirements:
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 60
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 3star_gengar
+    name: Ải Bóng Đêm Tinh Nghịch
+    description: Khám phá ải bóng đêm tinh nghịch và đối đầu với Gengar.
+    difficulty: 3
+    art: 3_star_gengar
+    durationText: 1h0m
+    durationSeconds: 3600
+    rewardText: '&#4CAF50 65% 5000 CobbleDollars, &#FFEB3B 35% Rare Candy x2-3, &#FF9800
+      15% Ability Patch'
+    rewards:
+      - command=cobbledollars give {player} 5000,chance=65,display=5000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=2-3,chance=35
+      - item=cobblemon:ability_patch,amount=1,chance=15
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 2
+    maxTeamSize: 5
+    requirements:
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 60
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 3star_gholdengo
+    name: Ải Đồng Xu Cổ Trấn Yểm
+    description: Khám phá ải đồng xu cổ trấn yểm và đối đầu với Gholdengo.
+    difficulty: 3
+    art: 3_star_gholdengo
+    durationText: 1h0m
+    durationSeconds: 3600
+    rewardText: '&#4CAF50 65% 5000 CobbleDollars, &#FFEB3B 35% Rare Candy x2-3, &#FF9800
+      15% Ability Patch'
+    rewards:
+      - command=cobbledollars give {player} 5000,chance=65,display=5000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=2-3,chance=35
+      - item=cobblemon:ability_patch,amount=1,chance=15
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 2
+    maxTeamSize: 5
+    requirements:
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 60
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 3star_greninja
+    name: Ải Bóng Nước Tối Thượng
+    description: Khám phá ải bóng nước tối thượng và đối đầu với Greninja.
+    difficulty: 3
+    art: 3_star_greninja
+    durationText: 1h0m
+    durationSeconds: 3600
+    rewardText: '&#4CAF50 65% 5000 CobbleDollars, &#FFEB3B 35% Rare Candy x2-3, &#FF9800
+      15% Ability Patch'
+    rewards:
+      - command=cobbledollars give {player} 5000,chance=65,display=5000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=2-3,chance=35
+      - item=cobblemon:ability_patch,amount=1,chance=15
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 2
+    maxTeamSize: 5
+    requirements:
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 60
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 3star_greninja_2
+    name: Ải Song Đao Ẩn Mình
+    description: Khám phá ải song đao ẩn mình và đối đầu với Greninja.
+    difficulty: 3
+    art: 3_star_greninja_2
+    durationText: 1h0m
+    durationSeconds: 3600
+    rewardText: '&#4CAF50 65% 5000 CobbleDollars, &#FFEB3B 35% Rare Candy x2-3, &#FF9800
+      15% Ability Patch'
+    rewards:
+      - command=cobbledollars give {player} 5000,chance=65,display=5000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=2-3,chance=35
+      - item=cobblemon:ability_patch,amount=1,chance=15
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 2
+    maxTeamSize: 5
+    requirements:
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 60
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 3star_gyarados
+    name: Ải Cuồng Nộ Đại Dương
+    description: Khám phá ải cuồng nộ đại dương và đối đầu với Gyarados.
+    difficulty: 3
+    art: 3_star_gyarados
+    durationText: 1h0m
+    durationSeconds: 3600
+    rewardText: '&#4CAF50 65% 5000 CobbleDollars, &#FFEB3B 35% Rare Candy x2-3, &#FF9800
+      15% Ability Patch'
+    rewards:
+      - command=cobbledollars give {player} 5000,chance=65,display=5000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=2-3,chance=35
+      - item=cobblemon:ability_patch,amount=1,chance=15
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 2
+    maxTeamSize: 5
+    requirements:
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 60
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 3star_houndoom
+    name: Ải Chó Săn Địa Ngục
+    description: Khám phá ải chó săn địa ngục và đối đầu với Houndoom.
+    difficulty: 3
+    art: 3_star_houndoom
+    durationText: 1h0m
+    durationSeconds: 3600
+    rewardText: '&#4CAF50 65% 5000 CobbleDollars, &#FFEB3B 35% Rare Candy x2-3, &#FF9800
+      15% Ability Patch'
+    rewards:
+      - command=cobbledollars give {player} 5000,chance=65,display=5000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=2-3,chance=35
+      - item=cobblemon:ability_patch,amount=1,chance=15
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 2
+    maxTeamSize: 5
+    requirements:
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 60
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 3star_infernape
+    name: Ải Khỉ Lửa Cuồng Nộ
+    description: Khám phá ải khỉ lửa cuồng nộ và đối đầu với Infernape.
+    difficulty: 3
+    art: 3_star_infernape
+    durationText: 1h0m
+    durationSeconds: 3600
+    rewardText: '&#4CAF50 65% 5000 CobbleDollars, &#FFEB3B 35% Rare Candy x2-3, &#FF9800
+      15% Ability Patch'
+    rewards:
+      - command=cobbledollars give {player} 5000,chance=65,display=5000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=2-3,chance=35
+      - item=cobblemon:ability_patch,amount=1,chance=15
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 2
+    maxTeamSize: 5
+    requirements:
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 60
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 3star_lapras
+    name: Ải Du Thuyền Băng Giá
+    description: Khám phá ải du thuyền băng giá và đối đầu với Lapras.
+    difficulty: 3
+    art: 3_star_lapras
+    durationText: 1h0m
+    durationSeconds: 3600
+    rewardText: '&#4CAF50 65% 5000 CobbleDollars, &#FFEB3B 35% Rare Candy x2-3, &#FF9800
+      15% Ability Patch'
+    rewards:
+      - command=cobbledollars give {player} 5000,chance=65,display=5000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=2-3,chance=35
+      - item=cobblemon:ability_patch,amount=1,chance=15
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 2
+    maxTeamSize: 5
+    requirements:
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 60
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 3star_lucario
+    name: Ải Khí Đấu Sĩ
+    description: Khám phá ải khí đấu sĩ và đối đầu với Lucario.
+    difficulty: 3
+    art: 3_star_lucario
+    durationText: 1h0m
+    durationSeconds: 3600
+    rewardText: '&#4CAF50 65% 5000 CobbleDollars, &#FFEB3B 35% Rare Candy x2-3, &#FF9800
+      15% Ability Patch'
+    rewards:
+      - command=cobbledollars give {player} 5000,chance=65,display=5000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=2-3,chance=35
+      - item=cobblemon:ability_patch,amount=1,chance=15
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 2
+    maxTeamSize: 5
+    requirements:
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 60
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 3star_machamp
+    name: Ải Tứ Tay Đại Lực Sĩ
+    description: Khám phá ải tứ tay đại lực sĩ và đối đầu với Machamp.
+    difficulty: 3
+    art: 3_star_machamp
+    durationText: 1h0m
+    durationSeconds: 3600
+    rewardText: '&#4CAF50 65% 5000 CobbleDollars, &#FFEB3B 35% Rare Candy x2-3, &#FF9800
+      15% Ability Patch'
+    rewards:
+      - command=cobbledollars give {player} 5000,chance=65,display=5000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=2-3,chance=35
+      - item=cobblemon:ability_patch,amount=1,chance=15
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 2
+    maxTeamSize: 5
+    requirements:
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 60
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 3star_meowscarada
+    name: Ải Ảo Thuật Gia Bóng Hoa
+    description: Khám phá ải ảo thuật gia bóng hoa và đối đầu với Meowscarada.
+    difficulty: 3
+    art: 3_star_meowscarada
+    durationText: 1h0m
+    durationSeconds: 3600
+    rewardText: '&#4CAF50 65% 5000 CobbleDollars, &#FFEB3B 35% Rare Candy x2-3, &#FF9800
+      15% Ability Patch'
+    rewards:
+      - command=cobbledollars give {player} 5000,chance=65,display=5000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=2-3,chance=35
+      - item=cobblemon:ability_patch,amount=1,chance=15
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 2
+    maxTeamSize: 5
+    requirements:
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 60
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 3star_milotic
+    name: Ải Vẻ Đẹp Vực Sâu
+    description: Khám phá ải vẻ đẹp vực sâu và đối đầu với Milotic.
+    difficulty: 3
+    art: 3_star_milotic
+    durationText: 1h0m
+    durationSeconds: 3600
+    rewardText: '&#4CAF50 65% 5000 CobbleDollars, &#FFEB3B 35% Rare Candy x2-3, &#FF9800
+      15% Ability Patch'
+    rewards:
+      - command=cobbledollars give {player} 5000,chance=65,display=5000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=2-3,chance=35
+      - item=cobblemon:ability_patch,amount=1,chance=15
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 2
+    maxTeamSize: 5
+    requirements:
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 60
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 3star_mismagius
+    name: Ải Lời Nguyền Huyền Bí
+    description: Khám phá ải lời nguyền huyền bí và đối đầu với Mismagius.
+    difficulty: 3
+    art: 3_star_mismagius
+    durationText: 1h0m
+    durationSeconds: 3600
+    rewardText: '&#4CAF50 65% 5000 CobbleDollars, &#FFEB3B 35% Rare Candy x2-3, &#FF9800
+      15% Ability Patch'
+    rewards:
+      - command=cobbledollars give {player} 5000,chance=65,display=5000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=2-3,chance=35
+      - item=cobblemon:ability_patch,amount=1,chance=15
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 2
+    maxTeamSize: 5
+    requirements:
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 60
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 3star_pidgeot
+    name: Ải Cơn Gió Đại Bàng
+    description: Khám phá ải cơn gió đại bàng và đối đầu với Pidgeot.
+    difficulty: 3
+    art: 3_star_pidgeot
+    durationText: 1h0m
+    durationSeconds: 3600
+    rewardText: '&#4CAF50 65% 5000 CobbleDollars, &#FFEB3B 35% Rare Candy x2-3, &#FF9800
+      15% Ability Patch'
+    rewards:
+      - command=cobbledollars give {player} 5000,chance=65,display=5000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=2-3,chance=35
+      - item=cobblemon:ability_patch,amount=1,chance=15
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 2
+    maxTeamSize: 5
+    requirements:
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 60
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 3star_rapidash
+    name: Ải Vó Ngựa Lửa Cháy
+    description: Khám phá ải vó ngựa lửa cháy và đối đầu với Rapidash.
+    difficulty: 3
+    art: 3_star_rapidash
+    durationText: 1h0m
+    durationSeconds: 3600
+    rewardText: '&#4CAF50 65% 5000 CobbleDollars, &#FFEB3B 35% Rare Candy x2-3, &#FF9800
+      15% Ability Patch'
+    rewards:
+      - command=cobbledollars give {player} 5000,chance=65,display=5000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=2-3,chance=35
+      - item=cobblemon:ability_patch,amount=1,chance=15
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 2
+    maxTeamSize: 5
+    requirements:
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 60
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 3star_seperior
+    name: Ải Vương Xà Vườn Cổ
+    description: Khám phá ải vương xà vườn cổ và đối đầu với Serperior.
+    difficulty: 3
+    art: 3_star_seperior
+    durationText: 1h0m
+    durationSeconds: 3600
+    rewardText: '&#4CAF50 65% 5000 CobbleDollars, &#FFEB3B 35% Rare Candy x2-3, &#FF9800
+      15% Ability Patch'
+    rewards:
+      - command=cobbledollars give {player} 5000,chance=65,display=5000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=2-3,chance=35
+      - item=cobblemon:ability_patch,amount=1,chance=15
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 2
+    maxTeamSize: 5
+    requirements:
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 60
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 3star_snorlax
+    name: Ải Giấc Ngủ Chặn Đường
+    description: Khám phá ải giấc ngủ chặn đường và đối đầu với Snorlax.
+    difficulty: 3
+    art: 3_star_snorlax
+    durationText: 1h0m
+    durationSeconds: 3600
+    rewardText: '&#4CAF50 65% 5000 CobbleDollars, &#FFEB3B 35% Rare Candy x2-3, &#FF9800
+      15% Ability Patch'
+    rewards:
+      - command=cobbledollars give {player} 5000,chance=65,display=5000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=2-3,chance=35
+      - item=cobblemon:ability_patch,amount=1,chance=15
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 2
+    maxTeamSize: 5
+    requirements:
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 60
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 3star_staraptor
+    name: Ải Chiến Binh Bầu Trời
+    description: Khám phá ải chiến binh bầu trời và đối đầu với Staraptor.
+    difficulty: 3
+    art: 3_star_staraptor
+    durationText: 1h0m
+    durationSeconds: 3600
+    rewardText: '&#4CAF50 65% 5000 CobbleDollars, &#FFEB3B 35% Rare Candy x2-3, &#FF9800
+      15% Ability Patch'
+    rewards:
+      - command=cobbledollars give {player} 5000,chance=65,display=5000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=2-3,chance=35
+      - item=cobblemon:ability_patch,amount=1,chance=15
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 2
+    maxTeamSize: 5
+    requirements:
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 60
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 3star_tyranitar
+    name: Ải Núi Lở Bạo Chúa
+    description: Khám phá ải núi lở bạo chúa và đối đầu với Tyranitar.
+    difficulty: 3
+    art: 3_star_tyranitar
+    durationText: 1h0m
+    durationSeconds: 3600
+    rewardText: '&#4CAF50 65% 5000 CobbleDollars, &#FFEB3B 35% Rare Candy x2-3, &#FF9800
+      15% Ability Patch'
+    rewards:
+      - command=cobbledollars give {player} 5000,chance=65,display=5000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=2-3,chance=35
+      - item=cobblemon:ability_patch,amount=1,chance=15
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 2
+    maxTeamSize: 5
+    requirements:
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 60
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 3star_venusaur
+    name: Ải Hoa Khổng Lồ Tỏa Hương
+    description: Khám phá ải hoa khổng lồ tỏa hương và đối đầu với Venusaur.
+    difficulty: 3
+    art: 3_star_venusaur
+    durationText: 1h0m
+    durationSeconds: 3600
+    rewardText: '&#4CAF50 65% 5000 CobbleDollars, &#FFEB3B 35% Rare Candy x2-3, &#FF9800
+      15% Ability Patch'
+    rewards:
+      - command=cobbledollars give {player} 5000,chance=65,display=5000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=2-3,chance=35
+      - item=cobblemon:ability_patch,amount=1,chance=15
+    minRewards: 1
+    maxRewards: 2
+    minTeamSize: 2
+    maxTeamSize: 5
+    requirements:
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 60
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 4star_blacephalon
+    name: Ải Pháo Hoa Ma Quái
+    description: Khám phá ải pháo hoa ma quái và đối đầu với Blacephalon.
+    difficulty: 4
+    art: 4_star_blacephalon
+    durationText: 2h0m
+    durationSeconds: 7200
+    rewardText: '&#4CAF50 75% 10000 CobbleDollars, &#FFEB3B 50% Rare Candy x3-5, &#FF9800
+      25% Ability Patch, &#F44336 10% PP Max'
+    rewards:
+      - command=cobbledollars give {player} 10000,chance=75,display=10000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=3-5,chance=50
+      - item=cobblemon:ability_patch,amount=1,chance=25
+      - item=cobblemon:pp_max,amount=1,chance=10
+    minRewards: 2
+    maxRewards: 3
+    minTeamSize: 2
+    maxTeamSize: 4
+    requirements:
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 90
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 4star_blacephalon_2
+    name: Ải Đêm Hội Ma Mị
+    description: Khám phá ải đêm hội ma mị và đối đầu với Blacephalon.
+    difficulty: 4
+    art: 4_star_blacephalon_2
+    durationText: 2h0m
+    durationSeconds: 7200
+    rewardText: '&#4CAF50 75% 10000 CobbleDollars, &#FFEB3B 50% Rare Candy x3-5, &#FF9800
+      25% Ability Patch, &#F44336 10% PP Max'
+    rewards:
+      - command=cobbledollars give {player} 10000,chance=75,display=10000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=3-5,chance=50
+      - item=cobblemon:ability_patch,amount=1,chance=25
+      - item=cobblemon:pp_max,amount=1,chance=10
+    minRewards: 2
+    maxRewards: 3
+    minTeamSize: 2
+    maxTeamSize: 4
+    requirements:
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 90
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 4star_buzzwole
+    name: Ải Cơ Bắp Dị Thời
+    description: Khám phá ải cơ bắp dị thời và đối đầu với Buzzwole.
+    difficulty: 4
+    art: 4_star_buzzwole
+    durationText: 2h0m
+    durationSeconds: 7200
+    rewardText: '&#4CAF50 75% 10000 CobbleDollars, &#FFEB3B 50% Rare Candy x3-5, &#FF9800
+      25% Ability Patch, &#F44336 10% PP Max'
+    rewards:
+      - command=cobbledollars give {player} 10000,chance=75,display=10000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=3-5,chance=50
+      - item=cobblemon:ability_patch,amount=1,chance=25
+      - item=cobblemon:pp_max,amount=1,chance=10
+    minRewards: 2
+    maxRewards: 3
+    minTeamSize: 2
+    maxTeamSize: 4
+    requirements:
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 90
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 4star_celesteela
+    name: Ải Cột Trụ Vũ Trụ
+    description: Khám phá ải cột trụ vũ trụ và đối đầu với Celesteela.
+    difficulty: 4
+    art: 4_star_celesteela
+    durationText: 2h0m
+    durationSeconds: 7200
+    rewardText: '&#4CAF50 75% 10000 CobbleDollars, &#FFEB3B 50% Rare Candy x3-5, &#FF9800
+      25% Ability Patch, &#F44336 10% PP Max'
+    rewards:
+      - command=cobbledollars give {player} 10000,chance=75,display=10000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=3-5,chance=50
+      - item=cobblemon:ability_patch,amount=1,chance=25
+      - item=cobblemon:pp_max,amount=1,chance=10
+    minRewards: 2
+    maxRewards: 3
+    minTeamSize: 2
+    maxTeamSize: 4
+    requirements:
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 90
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 4star_fluttermane
+    name: Ải Tóc Ma Cổ Đại
+    description: Khám phá ải tóc ma cổ đại và đối đầu với Flutter Mane.
+    difficulty: 4
+    art: 4_star_fluttermane
+    durationText: 2h0m
+    durationSeconds: 7200
+    rewardText: '&#4CAF50 75% 10000 CobbleDollars, &#FFEB3B 50% Rare Candy x3-5, &#FF9800
+      25% Ability Patch, &#F44336 10% PP Max'
+    rewards:
+      - command=cobbledollars give {player} 10000,chance=75,display=10000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=3-5,chance=50
+      - item=cobblemon:ability_patch,amount=1,chance=25
+      - item=cobblemon:pp_max,amount=1,chance=10
+    minRewards: 2
+    maxRewards: 3
+    minTeamSize: 2
+    maxTeamSize: 4
+    requirements:
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 90
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 4star_guzzlord
+    name: Ải Hố Đen Ngấu Nghiến
+    description: Khám phá ải hố đen ngấu nghiến và đối đầu với Guzzlord.
+    difficulty: 4
+    art: 4_star_guzzlord
+    durationText: 2h0m
+    durationSeconds: 7200
+    rewardText: '&#4CAF50 75% 10000 CobbleDollars, &#FFEB3B 50% Rare Candy x3-5, &#FF9800
+      25% Ability Patch, &#F44336 10% PP Max'
+    rewards:
+      - command=cobbledollars give {player} 10000,chance=75,display=10000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=3-5,chance=50
+      - item=cobblemon:ability_patch,amount=1,chance=25
+      - item=cobblemon:pp_max,amount=1,chance=10
+    minRewards: 2
+    maxRewards: 3
+    minTeamSize: 2
+    maxTeamSize: 4
+    requirements:
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 90
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 4star_ironbundle
+    name: Ải Băng Cơ Khí Vị Lai
+    description: Khám phá ải băng cơ khí vị lai và đối đầu với Iron Bundle.
+    difficulty: 4
+    art: 4_star_ironbundle
+    durationText: 2h0m
+    durationSeconds: 7200
+    rewardText: '&#4CAF50 75% 10000 CobbleDollars, &#FFEB3B 50% Rare Candy x3-5, &#FF9800
+      25% Ability Patch, &#F44336 10% PP Max'
+    rewards:
+      - command=cobbledollars give {player} 10000,chance=75,display=10000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=3-5,chance=50
+      - item=cobblemon:ability_patch,amount=1,chance=25
+      - item=cobblemon:pp_max,amount=1,chance=10
+    minRewards: 2
+    maxRewards: 3
+    minTeamSize: 2
+    maxTeamSize: 4
+    requirements:
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 90
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 4star_pheromosa
+    name: Ải Vũ Công Ngoại Không Gian
+    description: Khám phá ải vũ công ngoại không gian và đối đầu với Pheromosa.
+    difficulty: 4
+    art: 4_star_pheromosa
+    durationText: 2h0m
+    durationSeconds: 7200
+    rewardText: '&#4CAF50 75% 10000 CobbleDollars, &#FFEB3B 50% Rare Candy x3-5, &#FF9800
+      25% Ability Patch, &#F44336 10% PP Max'
+    rewards:
+      - command=cobbledollars give {player} 10000,chance=75,display=10000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=3-5,chance=50
+      - item=cobblemon:ability_patch,amount=1,chance=25
+      - item=cobblemon:pp_max,amount=1,chance=10
+    minRewards: 2
+    maxRewards: 3
+    minTeamSize: 2
+    maxTeamSize: 4
+    requirements:
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 90
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 4star_ragingbolt
+    name: Ải Sấm Sét Viễn Cổ
+    description: Khám phá ải sấm sét viễn cổ và đối đầu với Raging Bolt.
+    difficulty: 4
+    art: 4_star_ragingbolt
+    durationText: 2h0m
+    durationSeconds: 7200
+    rewardText: '&#4CAF50 75% 10000 CobbleDollars, &#FFEB3B 50% Rare Candy x3-5, &#FF9800
+      25% Ability Patch, &#F44336 10% PP Max'
+    rewards:
+      - command=cobbledollars give {player} 10000,chance=75,display=10000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=3-5,chance=50
+      - item=cobblemon:ability_patch,amount=1,chance=25
+      - item=cobblemon:pp_max,amount=1,chance=10
+    minRewards: 2
+    maxRewards: 3
+    minTeamSize: 2
+    maxTeamSize: 4
+    requirements:
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 90
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 5star_arceus
+    name: Ải Sáng Thế Nguyên Thủy
+    description: Khám phá ải sáng thế nguyên thủy và đối đầu với Arceus.
+    difficulty: 5
+    art: 5_star_arceus
+    durationText: 4h0m
+    durationSeconds: 14400
+    rewardText: '&#4CAF50 90% 20000 CobbleDollars, &#4CAF50 60% Rare Candy x5-10,
+      &#FF9800 25% Ability Patch, &#F44336 10% PP Max'
+    rewards:
+      - command=cobbledollars give {player} 20000,chance=90,display=20000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=5-10,chance=60
+      - item=cobblemon:ability_patch,amount=1,chance=25
+      - item=cobblemon:pp_max,amount=1,chance=10
+    minRewards: 2
+    maxRewards: 3
+    minTeamSize: 1
+    maxTeamSize: 3
+    requirements:
+      - type: REQUIRE_SPECIES
+        stat: null
+        species:
+          - arceus
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần có Arceus  &#78909C({current}/{threshold})'
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 120
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 5star_articuno
+    name: Ải Băng Điểu Truyền Thuyết
+    description: Khám phá ải băng điểu truyền thuyết và đối đầu với Articuno.
+    difficulty: 5
+    art: 5_star_articuno
+    durationText: 4h0m
+    durationSeconds: 14400
+    rewardText: '&#4CAF50 90% 20000 CobbleDollars, &#4CAF50 60% Rare Candy x5-10,
+      &#FF9800 25% Ability Patch, &#F44336 10% PP Max'
+    rewards:
+      - command=cobbledollars give {player} 20000,chance=90,display=20000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=5-10,chance=60
+      - item=cobblemon:ability_patch,amount=1,chance=25
+      - item=cobblemon:pp_max,amount=1,chance=10
+    minRewards: 2
+    maxRewards: 3
+    minTeamSize: 1
+    maxTeamSize: 3
+    requirements:
+      - type: REQUIRE_SPECIES
+        stat: null
+        species:
+          - articuno
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần có Articuno  &#78909C({current}/{threshold})'
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 120
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 5star_azelf
+    name: Ải Ý Chí Hồ Sâu
+    description: Khám phá ải ý chí hồ sâu và đối đầu với Azelf.
+    difficulty: 5
+    art: 5_star_azelf
+    durationText: 4h0m
+    durationSeconds: 14400
+    rewardText: '&#4CAF50 90% 20000 CobbleDollars, &#4CAF50 60% Rare Candy x5-10,
+      &#FF9800 25% Ability Patch, &#F44336 10% PP Max'
+    rewards:
+      - command=cobbledollars give {player} 20000,chance=90,display=20000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=5-10,chance=60
+      - item=cobblemon:ability_patch,amount=1,chance=25
+      - item=cobblemon:pp_max,amount=1,chance=10
+    minRewards: 2
+    maxRewards: 3
+    minTeamSize: 1
+    maxTeamSize: 3
+    requirements:
+      - type: REQUIRE_SPECIES
+        stat: null
+        species:
+          - azelf
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần có Azelf  &#78909C({current}/{threshold})'
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 120
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 5star_celebi
+    name: Ải Vòng Xoáy Thời Gian Rừng Xanh
+    description: Khám phá ải vòng xoáy thời gian rừng xanh và đối đầu với Celebi.
+    difficulty: 5
+    art: 5_star_celebi
+    durationText: 4h0m
+    durationSeconds: 14400
+    rewardText: '&#4CAF50 90% 20000 CobbleDollars, &#4CAF50 60% Rare Candy x5-10,
+      &#FF9800 25% Ability Patch, &#F44336 10% PP Max'
+    rewards:
+      - command=cobbledollars give {player} 20000,chance=90,display=20000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=5-10,chance=60
+      - item=cobblemon:ability_patch,amount=1,chance=25
+      - item=cobblemon:pp_max,amount=1,chance=10
+    minRewards: 2
+    maxRewards: 3
+    minTeamSize: 1
+    maxTeamSize: 3
+    requirements:
+      - type: REQUIRE_SPECIES
+        stat: null
+        species:
+          - celebi
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần có Celebi  &#78909C({current}/{threshold})'
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 120
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 5star_celebi_2
+    name: Ải Lữ Khách Thời Không
+    description: Khám phá ải lữ khách thời không và đối đầu với Celebi.
+    difficulty: 5
+    art: 5_star_celebi_2
+    durationText: 4h0m
+    durationSeconds: 14400
+    rewardText: '&#4CAF50 90% 20000 CobbleDollars, &#4CAF50 60% Rare Candy x5-10,
+      &#FF9800 25% Ability Patch, &#F44336 10% PP Max'
+    rewards:
+      - command=cobbledollars give {player} 20000,chance=90,display=20000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=5-10,chance=60
+      - item=cobblemon:ability_patch,amount=1,chance=25
+      - item=cobblemon:pp_max,amount=1,chance=10
+    minRewards: 2
+    maxRewards: 3
+    minTeamSize: 1
+    maxTeamSize: 3
+    requirements:
+      - type: REQUIRE_SPECIES
+        stat: null
+        species:
+          - celebi
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần có Celebi  &#78909C({current}/{threshold})'
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 120
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 5star_cresselia
+    name: Ải Trăng Lưỡi Liềm
+    description: Khám phá ải trăng lưỡi liềm và đối đầu với Cresselia.
+    difficulty: 5
+    art: 5_star_cresselia
+    durationText: 4h0m
+    durationSeconds: 14400
+    rewardText: '&#4CAF50 90% 20000 CobbleDollars, &#4CAF50 60% Rare Candy x5-10,
+      &#FF9800 25% Ability Patch, &#F44336 10% PP Max'
+    rewards:
+      - command=cobbledollars give {player} 20000,chance=90,display=20000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=5-10,chance=60
+      - item=cobblemon:ability_patch,amount=1,chance=25
+      - item=cobblemon:pp_max,amount=1,chance=10
+    minRewards: 2
+    maxRewards: 3
+    minTeamSize: 1
+    maxTeamSize: 3
+    requirements:
+      - type: REQUIRE_SPECIES
+        stat: null
+        species:
+          - cresselia
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần có Cresselia  &#78909C({current}/{threshold})'
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 120
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 5star_darkrai
+    name: Ải Ác Mộng Tân Nguyệt
+    description: Khám phá ải ác mộng tân nguyệt và đối đầu với Darkrai.
+    difficulty: 5
+    art: 5_star_darkrai
+    durationText: 4h0m
+    durationSeconds: 14400
+    rewardText: '&#4CAF50 90% 20000 CobbleDollars, &#4CAF50 60% Rare Candy x5-10,
+      &#FF9800 25% Ability Patch, &#F44336 10% PP Max'
+    rewards:
+      - command=cobbledollars give {player} 20000,chance=90,display=20000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=5-10,chance=60
+      - item=cobblemon:ability_patch,amount=1,chance=25
+      - item=cobblemon:pp_max,amount=1,chance=10
+    minRewards: 2
+    maxRewards: 3
+    minTeamSize: 1
+    maxTeamSize: 3
+    requirements:
+      - type: REQUIRE_SPECIES
+        stat: null
+        species:
+          - darkrai
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần có Darkrai  &#78909C({current}/{threshold})'
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 120
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 5star_dialga
+    name: Ải Chúa Tể Thời Gian
+    description: Khám phá ải chúa tể thời gian và đối đầu với Dialga.
+    difficulty: 5
+    art: 5_star_dialga
+    durationText: 4h0m
+    durationSeconds: 14400
+    rewardText: '&#4CAF50 90% 20000 CobbleDollars, &#4CAF50 60% Rare Candy x5-10,
+      &#FF9800 25% Ability Patch, &#F44336 10% PP Max'
+    rewards:
+      - command=cobbledollars give {player} 20000,chance=90,display=20000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=5-10,chance=60
+      - item=cobblemon:ability_patch,amount=1,chance=25
+      - item=cobblemon:pp_max,amount=1,chance=10
+    minRewards: 2
+    maxRewards: 3
+    minTeamSize: 1
+    maxTeamSize: 3
+    requirements:
+      - type: REQUIRE_SPECIES
+        stat: null
+        species:
+          - dialga
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần có Dialga  &#78909C({current}/{threshold})'
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 120
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 5star_diancie
+    name: Ải Kim Cương Vĩnh Cửu
+    description: Khám phá ải kim cương vĩnh cửu và đối đầu với Diancie.
+    difficulty: 5
+    art: 5_star_diancie
+    durationText: 4h0m
+    durationSeconds: 14400
+    rewardText: '&#4CAF50 90% 20000 CobbleDollars, &#4CAF50 60% Rare Candy x5-10,
+      &#FF9800 25% Ability Patch, &#F44336 10% PP Max'
+    rewards:
+      - command=cobbledollars give {player} 20000,chance=90,display=20000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=5-10,chance=60
+      - item=cobblemon:ability_patch,amount=1,chance=25
+      - item=cobblemon:pp_max,amount=1,chance=10
+    minRewards: 2
+    maxRewards: 3
+    minTeamSize: 1
+    maxTeamSize: 3
+    requirements:
+      - type: REQUIRE_SPECIES
+        stat: null
+        species:
+          - diancie
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần có Diancie  &#78909C({current}/{threshold})'
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 120
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 5star_entei
+    name: Ải Ngọn Lửa Phun Trào Truyền Thuyết
+    description: Khám phá ải ngọn lửa phun trào truyền thuyết và đối đầu với Entei.
+    difficulty: 5
+    art: 5_star_entei
+    durationText: 4h0m
+    durationSeconds: 14400
+    rewardText: '&#4CAF50 90% 20000 CobbleDollars, &#4CAF50 60% Rare Candy x5-10,
+      &#FF9800 25% Ability Patch, &#F44336 10% PP Max'
+    rewards:
+      - command=cobbledollars give {player} 20000,chance=90,display=20000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=5-10,chance=60
+      - item=cobblemon:ability_patch,amount=1,chance=25
+      - item=cobblemon:pp_max,amount=1,chance=10
+    minRewards: 2
+    maxRewards: 3
+    minTeamSize: 1
+    maxTeamSize: 3
+    requirements:
+      - type: REQUIRE_SPECIES
+        stat: null
+        species:
+          - entei
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần có Entei  &#78909C({current}/{threshold})'
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 120
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 5star_giratina
+    name: Ải Chiều Không Gian Nghịch Đảo
+    description: Khám phá ải chiều không gian nghịch đảo và đối đầu với Giratina.
+    difficulty: 5
+    art: 5_star_giratina
+    durationText: 4h0m
+    durationSeconds: 14400
+    rewardText: '&#4CAF50 90% 20000 CobbleDollars, &#4CAF50 60% Rare Candy x5-10,
+      &#FF9800 25% Ability Patch, &#F44336 10% PP Max'
+    rewards:
+      - command=cobbledollars give {player} 20000,chance=90,display=20000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=5-10,chance=60
+      - item=cobblemon:ability_patch,amount=1,chance=25
+      - item=cobblemon:pp_max,amount=1,chance=10
+    minRewards: 2
+    maxRewards: 3
+    minTeamSize: 1
+    maxTeamSize: 3
+    requirements:
+      - type: REQUIRE_SPECIES
+        stat: null
+        species:
+          - giratina
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần có Giratina  &#78909C({current}/{threshold})'
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 120
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 5star_heatran
+    name: Ải Miệng Núi Lửa Sắt
+    description: Khám phá ải miệng núi lửa sắt và đối đầu với Heatran.
+    difficulty: 5
+    art: 5_star_heatran
+    durationText: 4h0m
+    durationSeconds: 14400
+    rewardText: '&#4CAF50 90% 20000 CobbleDollars, &#4CAF50 60% Rare Candy x5-10,
+      &#FF9800 25% Ability Patch, &#F44336 10% PP Max'
+    rewards:
+      - command=cobbledollars give {player} 20000,chance=90,display=20000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=5-10,chance=60
+      - item=cobblemon:ability_patch,amount=1,chance=25
+      - item=cobblemon:pp_max,amount=1,chance=10
+    minRewards: 2
+    maxRewards: 3
+    minTeamSize: 1
+    maxTeamSize: 3
+    requirements:
+      - type: REQUIRE_SPECIES
+        stat: null
+        species:
+          - heatran
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần có Heatran  &#78909C({current}/{threshold})'
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 120
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 5star_hooh
+    name: Ải Cầu Vồng Bất Tử
+    description: Khám phá ải cầu vồng bất tử và đối đầu với Ho-Oh.
+    difficulty: 5
+    art: 5_star_hooh
+    durationText: 4h0m
+    durationSeconds: 14400
+    rewardText: '&#4CAF50 90% 20000 CobbleDollars, &#4CAF50 60% Rare Candy x5-10,
+      &#FF9800 25% Ability Patch, &#F44336 10% PP Max'
+    rewards:
+      - command=cobbledollars give {player} 20000,chance=90,display=20000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=5-10,chance=60
+      - item=cobblemon:ability_patch,amount=1,chance=25
+      - item=cobblemon:pp_max,amount=1,chance=10
+    minRewards: 2
+    maxRewards: 3
+    minTeamSize: 1
+    maxTeamSize: 3
+    requirements:
+      - type: REQUIRE_SPECIES
+        stat: null
+        species:
+          - ho-oh
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần có Ho-Oh  &#78909C({current}/{threshold})'
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 120
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 5star_jirachi
+    name: Ải Nghìn Năm Ước Nguyện
+    description: Khám phá ải nghìn năm ước nguyện và đối đầu với Jirachi.
+    difficulty: 5
+    art: 5_star_jirachi
+    durationText: 4h0m
+    durationSeconds: 14400
+    rewardText: '&#4CAF50 90% 20000 CobbleDollars, &#4CAF50 60% Rare Candy x5-10,
+      &#FF9800 25% Ability Patch, &#F44336 10% PP Max'
+    rewards:
+      - command=cobbledollars give {player} 20000,chance=90,display=20000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=5-10,chance=60
+      - item=cobblemon:ability_patch,amount=1,chance=25
+      - item=cobblemon:pp_max,amount=1,chance=10
+    minRewards: 2
+    maxRewards: 3
+    minTeamSize: 1
+    maxTeamSize: 3
+    requirements:
+      - type: REQUIRE_SPECIES
+        stat: null
+        species:
+          - jirachi
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần có Jirachi  &#78909C({current}/{threshold})'
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 120
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 5star_latios
+    name: Ải Thiên Không Song Long
+    description: Khám phá ải thiên không song long và đối đầu với Latios.
+    difficulty: 5
+    art: 5_star_latios
+    durationText: 4h0m
+    durationSeconds: 14400
+    rewardText: '&#4CAF50 90% 20000 CobbleDollars, &#4CAF50 60% Rare Candy x5-10,
+      &#FF9800 25% Ability Patch, &#F44336 10% PP Max'
+    rewards:
+      - command=cobbledollars give {player} 20000,chance=90,display=20000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=5-10,chance=60
+      - item=cobblemon:ability_patch,amount=1,chance=25
+      - item=cobblemon:pp_max,amount=1,chance=10
+    minRewards: 2
+    maxRewards: 3
+    minTeamSize: 1
+    maxTeamSize: 3
+    requirements:
+      - type: REQUIRE_SPECIES
+        stat: null
+        species:
+          - latios
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần có Latios  &#78909C({current}/{threshold})'
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 120
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 5star_lugia
+    name: Ải Chúa Tể Đại Dương Sâu Thẳm
+    description: Khám phá ải chúa tể đại dương sâu thẳm và đối đầu với Lugia.
+    difficulty: 5
+    art: 5_star_lugia
+    durationText: 4h0m
+    durationSeconds: 14400
+    rewardText: '&#4CAF50 90% 20000 CobbleDollars, &#4CAF50 60% Rare Candy x5-10,
+      &#FF9800 25% Ability Patch, &#F44336 10% PP Max'
+    rewards:
+      - command=cobbledollars give {player} 20000,chance=90,display=20000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=5-10,chance=60
+      - item=cobblemon:ability_patch,amount=1,chance=25
+      - item=cobblemon:pp_max,amount=1,chance=10
+    minRewards: 2
+    maxRewards: 3
+    minTeamSize: 1
+    maxTeamSize: 3
+    requirements:
+      - type: REQUIRE_SPECIES
+        stat: null
+        species:
+          - lugia
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần có Lugia  &#78909C({current}/{threshold})'
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 120
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 5star_lunala
+    name: Ải Ánh Trăng Xuyên Không
+    description: Khám phá ải ánh trăng xuyên không và đối đầu với Lunala.
+    difficulty: 5
+    art: 5_star_lunala
+    durationText: 4h0m
+    durationSeconds: 14400
+    rewardText: '&#4CAF50 90% 20000 CobbleDollars, &#4CAF50 60% Rare Candy x5-10,
+      &#FF9800 25% Ability Patch, &#F44336 10% PP Max'
+    rewards:
+      - command=cobbledollars give {player} 20000,chance=90,display=20000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=5-10,chance=60
+      - item=cobblemon:ability_patch,amount=1,chance=25
+      - item=cobblemon:pp_max,amount=1,chance=10
+    minRewards: 2
+    maxRewards: 3
+    minTeamSize: 1
+    maxTeamSize: 3
+    requirements:
+      - type: REQUIRE_SPECIES
+        stat: null
+        species:
+          - lunala
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần có Lunala  &#78909C({current}/{threshold})'
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 120
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 5star_marshadow
+    name: Ải Võ Sĩ Bóng Tối Ẩn Mình
+    description: Khám phá ải võ sĩ bóng tối ẩn mình và đối đầu với Marshadow.
+    difficulty: 5
+    art: 5_star_marshadow
+    durationText: 4h0m
+    durationSeconds: 14400
+    rewardText: '&#4CAF50 90% 20000 CobbleDollars, &#4CAF50 60% Rare Candy x5-10,
+      &#FF9800 25% Ability Patch, &#F44336 10% PP Max'
+    rewards:
+      - command=cobbledollars give {player} 20000,chance=90,display=20000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=5-10,chance=60
+      - item=cobblemon:ability_patch,amount=1,chance=25
+      - item=cobblemon:pp_max,amount=1,chance=10
+    minRewards: 2
+    maxRewards: 3
+    minTeamSize: 1
+    maxTeamSize: 3
+    requirements:
+      - type: REQUIRE_SPECIES
+        stat: null
+        species:
+          - marshadow
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần có Marshadow  &#78909C({current}/{threshold})'
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 120
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 5star_mew
+    name: Ải Vọng Âm Cổ Đại
+    description: Khám phá ải vọng âm cổ đại và đối đầu với Mew.
+    difficulty: 5
+    art: 5_star_mew
+    durationText: 4h0m
+    durationSeconds: 14400
+    rewardText: '&#4CAF50 90% 20000 CobbleDollars, &#4CAF50 60% Rare Candy x5-10,
+      &#FF9800 25% Ability Patch, &#F44336 10% PP Max'
+    rewards:
+      - command=cobbledollars give {player} 20000,chance=90,display=20000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=5-10,chance=60
+      - item=cobblemon:ability_patch,amount=1,chance=25
+      - item=cobblemon:pp_max,amount=1,chance=10
+    minRewards: 2
+    maxRewards: 3
+    minTeamSize: 1
+    maxTeamSize: 3
+    requirements:
+      - type: REQUIRE_SPECIES
+        stat: null
+        species:
+          - mew
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần có Mew  &#78909C({current}/{threshold})'
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 120
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 5star_mew_2
+    name: Ải Gen Mẫu Huyền Thoại
+    description: Khám phá ải gen mẫu huyền thoại và đối đầu với Mew.
+    difficulty: 5
+    art: 5_star_mew_2
+    durationText: 4h0m
+    durationSeconds: 14400
+    rewardText: '&#4CAF50 90% 20000 CobbleDollars, &#4CAF50 60% Rare Candy x5-10,
+      &#FF9800 25% Ability Patch, &#F44336 10% PP Max'
+    rewards:
+      - command=cobbledollars give {player} 20000,chance=90,display=20000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=5-10,chance=60
+      - item=cobblemon:ability_patch,amount=1,chance=25
+      - item=cobblemon:pp_max,amount=1,chance=10
+    minRewards: 2
+    maxRewards: 3
+    minTeamSize: 1
+    maxTeamSize: 3
+    requirements:
+      - type: REQUIRE_SPECIES
+        stat: null
+        species:
+          - mew
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần có Mew  &#78909C({current}/{threshold})'
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 120
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 5star_mewtwo
+    name: Ải Thí Nghiệm Sức Mạnh Tối Thượng
+    description: Khám phá ải thí nghiệm sức mạnh tối thượng và đối đầu với Mewtwo.
+    difficulty: 5
+    art: 5_star_mewtwo
+    durationText: 4h0m
+    durationSeconds: 14400
+    rewardText: '&#4CAF50 90% 20000 CobbleDollars, &#4CAF50 60% Rare Candy x5-10,
+      &#FF9800 25% Ability Patch, &#F44336 10% PP Max'
+    rewards:
+      - command=cobbledollars give {player} 20000,chance=90,display=20000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=5-10,chance=60
+      - item=cobblemon:ability_patch,amount=1,chance=25
+      - item=cobblemon:pp_max,amount=1,chance=10
+    minRewards: 2
+    maxRewards: 3
+    minTeamSize: 1
+    maxTeamSize: 3
+    requirements:
+      - type: REQUIRE_SPECIES
+        stat: null
+        species:
+          - mewtwo
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần có Mewtwo  &#78909C({current}/{threshold})'
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 120
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 5star_moltres
+    name: Ải Lửa Điểu Truyền Thuyết
+    description: Khám phá ải lửa điểu truyền thuyết và đối đầu với Moltres.
+    difficulty: 5
+    art: 5_star_moltres
+    durationText: 4h0m
+    durationSeconds: 14400
+    rewardText: '&#4CAF50 90% 20000 CobbleDollars, &#4CAF50 60% Rare Candy x5-10,
+      &#FF9800 25% Ability Patch, &#F44336 10% PP Max'
+    rewards:
+      - command=cobbledollars give {player} 20000,chance=90,display=20000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=5-10,chance=60
+      - item=cobblemon:ability_patch,amount=1,chance=25
+      - item=cobblemon:pp_max,amount=1,chance=10
+    minRewards: 2
+    maxRewards: 3
+    minTeamSize: 1
+    maxTeamSize: 3
+    requirements:
+      - type: REQUIRE_SPECIES
+        stat: null
+        species:
+          - moltres
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần có Moltres  &#78909C({current}/{threshold})'
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 120
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 5star_palkia
+    name: Ải Chúa Tể Không Gian
+    description: Khám phá ải chúa tể không gian và đối đầu với Palkia.
+    difficulty: 5
+    art: 5_star_palkia
+    durationText: 4h0m
+    durationSeconds: 14400
+    rewardText: '&#4CAF50 90% 20000 CobbleDollars, &#4CAF50 60% Rare Candy x5-10,
+      &#FF9800 25% Ability Patch, &#F44336 10% PP Max'
+    rewards:
+      - command=cobbledollars give {player} 20000,chance=90,display=20000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=5-10,chance=60
+      - item=cobblemon:ability_patch,amount=1,chance=25
+      - item=cobblemon:pp_max,amount=1,chance=10
+    minRewards: 2
+    maxRewards: 3
+    minTeamSize: 1
+    maxTeamSize: 3
+    requirements:
+      - type: REQUIRE_SPECIES
+        stat: null
+        species:
+          - palkia
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần có Palkia  &#78909C({current}/{threshold})'
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 120
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 5star_palkia_2
+    name: Ải Vết Nứt Chiều Không Gian
+    description: Khám phá ải vết nứt chiều không gian và đối đầu với Palkia.
+    difficulty: 5
+    art: 5_star_palkia_2
+    durationText: 4h0m
+    durationSeconds: 14400
+    rewardText: '&#4CAF50 90% 20000 CobbleDollars, &#4CAF50 60% Rare Candy x5-10,
+      &#FF9800 25% Ability Patch, &#F44336 10% PP Max'
+    rewards:
+      - command=cobbledollars give {player} 20000,chance=90,display=20000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=5-10,chance=60
+      - item=cobblemon:ability_patch,amount=1,chance=25
+      - item=cobblemon:pp_max,amount=1,chance=10
+    minRewards: 2
+    maxRewards: 3
+    minTeamSize: 1
+    maxTeamSize: 3
+    requirements:
+      - type: REQUIRE_SPECIES
+        stat: null
+        species:
+          - palkia
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần có Palkia  &#78909C({current}/{threshold})'
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 120
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 5star_shaymin
+    name: Ải Hoa Cỏ Tri Ân
+    description: Khám phá ải hoa cỏ tri ân và đối đầu với Shaymin.
+    difficulty: 5
+    art: 5_star_shaymin
+    durationText: 4h0m
+    durationSeconds: 14400
+    rewardText: '&#4CAF50 90% 20000 CobbleDollars, &#4CAF50 60% Rare Candy x5-10,
+      &#FF9800 25% Ability Patch, &#F44336 10% PP Max'
+    rewards:
+      - command=cobbledollars give {player} 20000,chance=90,display=20000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=5-10,chance=60
+      - item=cobblemon:ability_patch,amount=1,chance=25
+      - item=cobblemon:pp_max,amount=1,chance=10
+    minRewards: 2
+    maxRewards: 3
+    minTeamSize: 1
+    maxTeamSize: 3
+    requirements:
+      - type: REQUIRE_SPECIES
+        stat: null
+        species:
+          - shaymin
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần có Shaymin  &#78909C({current}/{threshold})'
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 120
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 5star_solgaleo
+    name: Ải Sư Tử Mặt Trời Vệ Thần
+    description: Khám phá ải sư tử mặt trời vệ thần và đối đầu với Solgaleo.
+    difficulty: 5
+    art: 5_star_solgaleo
+    durationText: 4h0m
+    durationSeconds: 14400
+    rewardText: '&#4CAF50 90% 20000 CobbleDollars, &#4CAF50 60% Rare Candy x5-10,
+      &#FF9800 25% Ability Patch, &#F44336 10% PP Max'
+    rewards:
+      - command=cobbledollars give {player} 20000,chance=90,display=20000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=5-10,chance=60
+      - item=cobblemon:ability_patch,amount=1,chance=25
+      - item=cobblemon:pp_max,amount=1,chance=10
+    minRewards: 2
+    maxRewards: 3
+    minTeamSize: 1
+    maxTeamSize: 3
+    requirements:
+      - type: REQUIRE_SPECIES
+        stat: null
+        species:
+          - solgaleo
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần có Solgaleo  &#78909C({current}/{threshold})'
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 120
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 5star_zapdos
+    name: Ải Sấm Sét Truyền Thuyết
+    description: Khám phá ải sấm sét truyền thuyết và đối đầu với Zapdos.
+    difficulty: 5
+    art: 5_star_zapdos
+    durationText: 4h0m
+    durationSeconds: 14400
+    rewardText: '&#4CAF50 90% 20000 CobbleDollars, &#4CAF50 60% Rare Candy x5-10,
+      &#FF9800 25% Ability Patch, &#F44336 10% PP Max'
+    rewards:
+      - command=cobbledollars give {player} 20000,chance=90,display=20000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=5-10,chance=60
+      - item=cobblemon:ability_patch,amount=1,chance=25
+      - item=cobblemon:pp_max,amount=1,chance=10
+    minRewards: 2
+    maxRewards: 3
+    minTeamSize: 1
+    maxTeamSize: 3
+    requirements:
+      - type: REQUIRE_SPECIES
+        stat: null
+        species:
+          - zapdos
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần có Zapdos  &#78909C({current}/{threshold})'
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 120
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+  - id: 5star_zeraora
+    name: Ải Tia Chớp Bí Ẩn
+    description: Khám phá ải tia chớp bí ẩn và đối đầu với Zeraora.
+    difficulty: 5
+    art: 5_star_zeraora
+    durationText: 4h0m
+    durationSeconds: 14400
+    rewardText: '&#4CAF50 90% 20000 CobbleDollars, &#4CAF50 60% Rare Candy x5-10,
+      &#FF9800 25% Ability Patch, &#F44336 10% PP Max'
+    rewards:
+      - command=cobbledollars give {player} 20000,chance=90,display=20000 CobbleDollars
+      - item=cobblemon:rare_candy,amount=5-10,chance=60
+      - item=cobblemon:ability_patch,amount=1,chance=25
+      - item=cobblemon:pp_max,amount=1,chance=10
+    minRewards: 2
+    maxRewards: 3
+    minTeamSize: 1
+    maxTeamSize: 3
+    requirements:
+      - type: REQUIRE_SPECIES
+        stat: null
+        species:
+          - zeraora
+        threshold: 1
+        labelTemplate: '&#B0BEC5Cần có Zeraora  &#78909C({current}/{threshold})'
+      - type: IV_TOTAL_SUM_MIN
+        stat: null
+        species: null
+        threshold: 120
+        labelTemplate: '&#B0BEC5Tổng IV >= {threshold}  &#78909C({current}/{threshold})'
+items:
+  - type: LUCKY_CLOVER
+    name: Cỏ May Mắn
+    description: '&#B0BEC5Tăng tỉ lệ nhận vật phẩm hiếm ở lần hoàn thành ải kế tiếp.'
+    art: lucky_clover
+  - type: HOURGLASS
+    name: Đồng Hồ Cát
+    description: '&#B0BEC5Giảm bớt thời gian cần để hoàn thành ải đang tham gia.'
+    art: hourglass
+  - type: NORMAL_REROLL_TOKEN
+    name: Lượt Đổi Thường
+    description: '&#B0BEC5Hoàn lại 1 lượt đổi ải đã dùng hôm nay (chỉ dùng được khi
+      đã dùng ít nhất 1 lượt đổi).'
+    art: normal_reroll_token
+  - type: GOLDEN_REROLL_TOKEN
+    name: Lượt Đổi Hoàng Kim
+    description: '&#B0BEC5Đổi ngay ra 1 bộ 3 ải gồm đủ 3-4-5 sao.'
+    art: golden_reroll_token
+  - type: GALAXY_CRYSTAL
+    name: Tinh Thể Thiên Hà
+    description: '&#B0BEC5Hoàn thành ngay ngẫu nhiên 1 trong 3 ải đang đối mặt, không
+      tốn lượt trong ngày.'
+    art: galaxy_crystal
+  - type: GOLDEN_HOURGLASS
+    name: Đồng Hồ Cát Hoàng Kim
+    description: '&#B0BEC5Hoàn thành ngay lập tức ải đang tham gia.'
+    art: golden_hourglass
+tierColors:
+  - mode: SOLID
+    color: '#386E3F'
+    colorA: '#FFD700'
+    colorB: '#FF3CAC'
+    cycleMs: 2000
+  - mode: SOLID
+    color: '#0000FF'
+    colorA: '#FFD700'
+    colorB: '#FF3CAC'
+    cycleMs: 2000
+  - mode: SOLID
+    color: '#9B59B6'
+    colorA: '#FFD700'
+    colorB: '#FF3CAC'
+    cycleMs: 2000
+  - mode: SOLID
+    color: '#FF8C00'
+    colorA: '#FFD700'
+    colorB: '#FF3CAC'
+    cycleMs: 2000
+  - mode: GRADIENT
+    color: '#386E3F'
+    colorA: '#FFD700'
+    colorB: '#FF3CAC'
+    cycleMs: 2000

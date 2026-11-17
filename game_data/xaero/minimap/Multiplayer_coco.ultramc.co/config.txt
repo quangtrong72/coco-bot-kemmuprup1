@@ -1,0 +1,31 @@
+//waypoints config options
+usingMultiworldDetection:false
+ignoreServerLevelId:false
+teleportationEnabled:true
+usingDefaultTeleportCommand:true
+sortType:NONE
+sortReversed:false
+
+//other config options
+ignoreHeightmaps:false
+
+//dimension types (DO NOT EDIT)
+dimensionType:minecraft$start:minecraft$overworld
+dimensionType:minecraft$overworld:minecraft$overworld
+dimensionType:minecraft$lobby:minecraft$overworld
+//third-party waypoints
+third-party-waypoint:dim%0:waystones:pink_sharestone:45df171b-0a33-4aaa-b173-6479543fb046::false::::;
+third-party-waypoint:dim%0:waystones:pink_sharestone:77aacf51-a80e-470c-bd09-7bc0d897db36::false::::;
+third-party-waypoint:dim%0:waystones:pink_sharestone:e7ebb56e-6f42-4b68-97ba-b85111e7e733::false::::;
+third-party-waypoint:dim%0:waystones:pink_sharestone:95e7d17c-4a25-4a57-820e-5b931eb8e146::false::::;
+third-party-waypoint:dim%0:waystones:pink_sharestone:507fc5ae-6dca-471a-8058-30a45250190b::false::::;
+third-party-waypoint:dim%0:waystones:pink_sharestone:4df9fd95-6589-4802-909c-882600d68f4e::false::::;
+third-party-waypoint:dim%0:waystones:pink_sharestone:5a704f31-f419-4ecb-8863-4cef87c24677::false::::;
+third-party-waypoint:dim%0:waystones:pink_sharestone:ada897f7-1e83-4099-b1c4-b0a86131197e::false::::;
+third-party-waypoint:dim%0:waystones:pink_sharestone:8601bb0c-0a1b-44bc-9fc3-f75fe498b275::false::::;
+third-party-waypoint:dim%0:waystones:pink_sharestone:c2df6250-424f-4941-a593-142475623051::false::::;
+third-party-waypoint:dim%0:waystones:red_sharestone:5b62971f-8746-44de-8985-f7607f3cf8ae::false::::;
+third-party-waypoint:dim%0:waystones:red_sharestone:4ea50358-636d-4d96-bb95-0bdd5d4842bc::false::::;
+third-party-waypoint:dim%0:waystones:red_sharestone:168dbf61-d3a7-454f-b043-65d9a80061d5::false::::;
+third-party-waypoint:dim%0:waystones:red_sharestone:017020ff-0629-402c-a169-91a0ae88b0c0::false::::;
+third-party-waypoint:dim%0:waystones:red_sharestone:d18b69c1-961c-46ab-a53a-7994034a8e97::false::::;
